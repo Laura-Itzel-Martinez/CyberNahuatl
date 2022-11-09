@@ -1,0 +1,49 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class HomeController extends Controller
+{
+    /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
+    /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function index()
+    {
+        return view('home');
+    }
+    public function cursos(){
+        return view('cursos');  
+    }
+    public function diccionario(){
+        return view('diccionario');  
+    }
+    public function perfil(){
+        return view('perfil');  
+    }
+    public function profesores(){
+        return view('profesores');  
+    }
+    public function alfabeto(){
+        return view('alfabeto');  
+    }
+    public function numeracion(){
+        return view('numeracion');  
+    }
+    public function cuerpo(){
+        return view('cuerpo');  
+    }
+}
