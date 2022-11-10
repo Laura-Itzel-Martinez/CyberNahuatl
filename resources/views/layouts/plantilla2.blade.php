@@ -26,6 +26,7 @@
     <link href="{{asset('css/cuerpo.css') }}" rel="stylesheet">
     <link href="{{asset('css/alfabeto.css') }}" rel="stylesheet">
     <link href="{{asset('css/animales.css') }}" rel="stylesheet">
+    
   </head>
   <body>
     

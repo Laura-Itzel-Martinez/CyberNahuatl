@@ -10,6 +10,12 @@
   
   
 }
+#texto{
+  text-align: justify;
+  margin-right: 20px;
+  margin-left:20px;
+  color: white;
+}
 
 .color-card{
   background:#712130;
@@ -123,8 +129,8 @@ hr{
 .circule{
   border-radius:50%;
   border:none;
-  height:60px;
-  width:60px;
+  height:70px;
+  width:70px;
   color:#ffffff;
   box-shadow: 0 13px 26px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.16);
   
@@ -172,10 +178,10 @@ margin:auto;
 .cards_p {
   border-radius: 6px;
   display: inline-block;
-  height: 667px;
+  height: 800px;
   margin: 1rem;
   position: relative;
-  width: 375px;
+  width: 400px;
   box-shadow: 0 12px 13px rgba(0,0,0,0.16), 0 12px 13px rgba(0,0,0,0.16);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
