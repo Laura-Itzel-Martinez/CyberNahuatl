@@ -24,6 +24,8 @@
     <link href="{{asset('css/numeracion.css') }}" rel="stylesheet">
     <link href="{{asset('css/diccionario.css') }}" rel="stylesheet">
     <link href="{{asset('css/cuerpo.css') }}" rel="stylesheet">
+    <link href="{{asset('css/alfabeto.css') }}" rel="stylesheet">
+    <link href="{{asset('css/animales.css') }}" rel="stylesheet">
   </head>
   <body>
     
@@ -59,9 +61,12 @@
             <div class="navbar-header">
               <div class="row" id="barra">
                 <a href="#" class="navbar-brand" id="sidebar-toggle"><i class="fa fa-bars"></i></a>
-                <div class="col-sm-3"><a href="{{ route('alfabeto')}}">Alfabeto</a></div>
-                <div class="col-sm-4"><a href="{{ route('numeracion')}}">Numeraciòn</a></div>
-                <div class="col-sm-3"><a href="{{ route('cuerpo')}}">Cuerpo</a></div>
+
+                <div class="col-sm-2"><a href="{{ route('alfabeto')}}">Alfabeto</a></div>
+                <div class="col-sm-3"><a href="{{ route('numeracion')}}">Numeraciòn</a></div>
+                <div class="col-sm-2"><a href="{{ route('cuerpo')}}">Cuerpo</a></div>
+                <div class="col-sm-2"><a href="{{ route('animales')}}">Animales</a></div>
+                
                 
                 <div class="col"><a href="{{url('/logout')}}">salir</a></div>
                 

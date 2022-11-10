@@ -46,4 +46,7 @@ class HomeController extends Controller
     public function cuerpo(){
         return view('cuerpo');  
     }
+    public function animales(){
+        return view('animales');  
+    }
 }

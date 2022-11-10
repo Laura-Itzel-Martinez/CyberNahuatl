@@ -30,3 +30,4 @@ Route::get('/profesores', [App\Http\Controllers\HomeController::class, 'profesor
 Route::get('/alfabeto', [App\Http\Controllers\HomeController::class, 'alfabeto'])->name('alfabeto');
 Route::get('/numeracion', [App\Http\Controllers\HomeController::class, 'numeracion'])->name('numeracion');
 Route::get('/cuerpo', [App\Http\Controllers\HomeController::class, 'cuerpo'])->name('cuerpo');
+Route::get('/animales', [App\Http\Controllers\HomeController::class, 'animales'])->name('animales');
