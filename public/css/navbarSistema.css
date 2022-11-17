@@ -1,7 +1,10 @@
-
+#op{
+  padding-left: 35px;
+  margin-inline: true;
+}
 
 .navbar-header{
-    width: 60%;
+    width: 100%;
     font-size:smaller;
 }
 hr {
@@ -9,7 +12,10 @@ hr {
   background-color: white;
   border: none;
 }
+#salir{
 
+  margin-top: -8px;
+}
 a:hover,
 a:focus {
   text-decoration: none;

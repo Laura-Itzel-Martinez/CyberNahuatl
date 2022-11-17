@@ -16,13 +16,13 @@
       </div>
       
       <div class="col-sm-2">
-        <div  id="sexo" style="color: black">
+        <div  id="sexo" >
 
         </div>
       </div>
       <div class="col"></div>
       <div class="col-sm-5" style="margin-top: 20px">
-        <div  role="alert" style="color: black">
+        <div  role="alert" >
           selecciona alguna parte del cuerpo para saber su información
        </div>
       </div>

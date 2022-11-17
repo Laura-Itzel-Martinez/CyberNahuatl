@@ -3,7 +3,12 @@
 @section('content')
 
 <body class="body_2">
-  <p><h2>Profesores de la lengua Nahuatl</h2></p>
+  
+  <div class="row" style="margin-top: 40px">
+    <div class="col">
+      <p><h2>Profesores de la lengua Nahuatl</h2></p>
+    </div>
+  </div>
 
 <div class="grid-8 element-animation">
     <!--card-1-->
@@ -34,7 +39,7 @@
       <p class="job-title"> Hablante de la lengua Nahuatl</p>
 
       <hr class="hr-2">
-      <h5 id="texto">revitalizador de la lengua náhuatl desde el arte y la cultura, es originario de Santa Ana Tlacotenco,
+      <h5 id="texto">Revitalizador de la lengua náhuatl desde el arte y la cultura, es originario de Santa Ana Tlacotenco,
       Milpa Alta y ahí, en su comunidad, ha impulsado que siga viva la lengua nahuatl, por medio del canto, la pintura y 
       la escultura. Además, defiende la idea de mantener vivas las lenguas aprendiendo de los y las abuelas.
       Conoce el reciente proyecto de José Ortiz, Casa de Cultura “Kaltlamahchichihke”, donde se alberga la obra de varios autores 

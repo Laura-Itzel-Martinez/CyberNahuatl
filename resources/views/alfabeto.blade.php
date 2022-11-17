@@ -1,7 +1,7 @@
 @extends('layouts.plantilla2')
 
 @section('content')
- 
+<br><br>
 <h2>Alfabeto Nahualt</h2><br>
   <span style="text-align: center"><h5>El alfabeto es un signo gráfico o conjunto de ellos con que se representa un sonido o una palabra en la escritura.</h5></span>
     <div class="content-all">

@@ -31,7 +31,7 @@
           <nav>
             <a class="navbar-brand"  href="{{ url('/') }}">
                 <img src="{{asset('img/logoCyber.png') }}" width="50" height="50"  alt="" loading="lazy">
-              <span style="color: white;" >CyberNahualt</span>
+              <span style="color: white;" >CyberNahuatl</span>
             
             </a>
               

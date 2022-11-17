@@ -49,4 +49,7 @@ class HomeController extends Controller
     public function animales(){
         return view('animales');  
     }
+    public function colores(){
+        return view('colores');  
+    }
 }
