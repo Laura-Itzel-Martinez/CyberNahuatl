@@ -1,5 +1,5 @@
 
-/* RESETEO */
+
 * {
 	margin: 0;
 	padding: 0;
@@ -8,22 +8,9 @@
 	outline: none;
 	color: inherit;
 	list-style: none;
-	font-family: "Poppins";
-}
-/* FOOTER SIEMPRE EN EL BORDE INFERIOR */
-/* -----------CON FLEX------------ */
-
-/* body {
-	min-height: 100vh;
-	height: 100%;
-	display: flex;
-		flex-flow: column nowrap;
-		justify-content: space-between;
+    font-family:'Source Sans Pro';
 }
 
-main {
-	flex: 1;
-} */
 
 /* -----------CON GRID------------ */
 body {
@@ -43,7 +30,7 @@ header {
 	/* EL HEADER QUEDA ARRIBA */
 	position: sticky;
 	top: 0;
-	background:#712130;
+	background:#9F2241 ;
 	color:white;
 	z-index: 1;
 	/* SEPARAR LOGO Y MENU */
@@ -51,7 +38,7 @@ header {
 	justify-content: space-between;
 	align-items: baseline;
 	/* ESTILO */
-	
+
 	box-shadow: 0 0 20px 0 black;
 }
 
@@ -100,17 +87,10 @@ nav {
 	text-underline-offset: 0.3em;
 }
 
-/* CONTENEDOR DE TARJETAS RESPONSIVE CON GRID */
+
 .contenedor {
 	display: grid;
-	/* 	-------------AL USAR GRID, LA ULTIMA FILA NO QUEDA CENTRADA-------------
-	GRID-TEMPLATE-COLUMNS: Esta propiedad de GRID crea las columnas de la grilla.
-	-REPEAT-> (cantidad de columnas, misma medida) -> repeat(2,200px) crea 2 columnas/filas de 200px.
-	-AUTO-FIT-> GRID CREA TANTAS COLUMNAS COMO ITEMS.
-	--> AUTO-FIT PUEDE CAMBIARSE POR AUTO-FILL QUE SIGUE CREANDO COLUMNAS AUNQUE YA USO TODOS LOS ITEMS.
-	-MINMAX-> CADA COLUMNA TIENE COMO MÍNIMO XXX y COMO MÁXIMO UNA FRACCIÓN*/
 
-	/* 	repeat (numero de veces que repite, medida) */
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	gap: 2em;
 }

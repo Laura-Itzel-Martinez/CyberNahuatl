@@ -1,6 +1,7 @@
 #op{
   padding-left: 35px;
   margin-inline: true;
+  font-family:'Source Sans Pro';
 }
 
 .navbar-header{
@@ -36,7 +37,7 @@ a:focus {
   margin-left: -250px;
   overflow-y: auto;
   overflow-x: hidden;
-  background: #1c342d;
+  background: #235B4E;
   transition: all 0.5s ease;
 }
 
@@ -77,12 +78,13 @@ a:focus {
   color: white;
   font-weight: 60;
   font-size: 18px;
+  font-family:'Source Sans Pro';
 }
 .sidebar-nav > li > a:hover,
 .sidebar-nav > li.active > a {
   text-decoration: none;
   color: white;
-  background: #F8BE12;
+  background: #BC955C;
 }
 .sidebar-nav > li > a i.fa {
   font-size: 24px;
@@ -93,8 +95,8 @@ a:focus {
     width: 100%;
     position: absolute;
     z-index: 2;
-    
-   
+
+
 }
 #wrapper.toggled #navbar-wrapper {
     position: absolute;
@@ -103,13 +105,15 @@ a:focus {
 /*letras de vertical*/
 #navbar-wrapper .navbar {
   border-width: 0 0 0 0;
-  background-color: #712130;
+  background-color: #9F2241;
   font-size: 24px;
   margin-bottom: 0;
   border-radius: 0;
+
 }
 #navbar-wrapper .navbar a {
   color: #fff;
+  font-family:'Source Sans Pro';
 }
 #navbar-wrapper .navbar a:hover {
   color: #fff;
@@ -130,7 +134,7 @@ a:focus {
   #wrapper {
     padding-left: 250px;
   }
-  
+
   #wrapper.toggled {
     padding-left: 60px;
   }
@@ -138,16 +142,16 @@ a:focus {
   #sidebar-wrapper {
     width: 250px;
   }
-  
+
   #wrapper.toggled #sidebar-wrapper {
     width: 60px;
   }
-  
+
   #wrapper.toggled #navbar-wrapper {
     position: absolute;
     margin-right: -190px;
 }
-  
+
   #wrapper.toggled #content-wrapper {
     position: absolute;
     margin-right: -190px;
@@ -181,12 +185,12 @@ a:focus {
   #sidebar-wrapper {
     width: 60px;
   }
-  
+
 #wrapper.toggled #navbar-wrapper {
     position: absolute;
     margin-right: -250px;
 }
-  
+
   #wrapper.toggled #content-wrapper {
     position: absolute;
     margin-right: -250px;

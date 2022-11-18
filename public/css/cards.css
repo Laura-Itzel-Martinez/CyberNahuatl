@@ -11,7 +11,7 @@ html { font-size: 92.5%; }
 
 body {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family:'Source Sans Pro';
   position: relative;
 }
 
@@ -26,8 +26,8 @@ body {
 }
 
 /* Main heading for inside page */
-.inside-page__heading { 
-  padding-bottom: 1rem; 
+.inside-page__heading {
+  padding-bottom: 1rem;
   width: 100%;
 }
 
@@ -98,7 +98,7 @@ body {
   z-index: 10;
 }
 
-.inside-page__btn::before { 
+.inside-page__btn::before {
   content: "";
   height: 100%;
   left: 0;
@@ -110,47 +110,47 @@ body {
   z-index: -1;
 }
 
-.inside-page__btn--city { 
+.inside-page__btn--city {
   border-color: #ff40a1;
   color: #ff40a1;
 }
 
-.inside-page__btn--city::before { 
+.inside-page__btn--city::before {
   background-color: #ff40a1;
 }
 
-.inside-page__btn--ski { 
+.inside-page__btn--ski {
   border-color: #279eb2;
   color: #279eb2;
 }
 
-.inside-page__btn--ski::before { 
+.inside-page__btn--ski::before {
   background-color: #279eb2;
 }
 
-.inside-page__btn--beach { 
+.inside-page__btn--beach {
   border-color: #fa7f67;
   color: #fa7f67;
 }
 
-.inside-page__btn--beach::before { 
+.inside-page__btn--beach::before {
   background-color: #fa7f67;
 }
 
-.inside-page__btn--camping { 
+.inside-page__btn--camping {
   border-color: #00b97d;
   color: #00b97d;
 }
 
-.inside-page__btn--camping::before { 
+.inside-page__btn--camping::before {
   background-color: #00b97d;
 }
 
-.inside-page__btn:hover { 
+.inside-page__btn:hover {
   color: #fafbfa;
 }
 
-.inside-page__btn:hover::before { 
+.inside-page__btn:hover::before {
   transform: scaleY(1);
 }
 
@@ -335,7 +335,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  text-align: center; 
+  text-align: center;
   width: 100%;
 }
 

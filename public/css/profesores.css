@@ -7,35 +7,36 @@
   border: 0;
   overflow-x: hidden;
   overflow-y:visible;
-  
-  
+
+
 }
 #texto{
   text-align: justify;
   margin-right: 20px;
   margin-left:20px;
   color: white;
+  font-family:'Source Sans Pro';
 }
 
 .color-card{
-  background:#712130;
+  background:#9F2241 ;
   align-items: center;
   display: flex;
 }
 
 .color-card-2{
-  background:#1c342d;
+  background:#BC955C;
   align-items: center;
 }
 .title{
   color:#ffffff;
-  font-family: 'Alata', sans-serif;
+  font-family:'Source Sans Pro';
   height:300;
   text-align: center;
 }
 .title-2{
   color:#ffffff;
-  font-family: 'Alata', sans-serif;
+  font-family:'Source Sans Pro';
   height:300;
   text-align: center;
 }
@@ -45,7 +46,7 @@
   color:#ffffff;
   font-size:12px;
   height:200;
-  font-family: 'Alata', sans-serif;
+  font-family:'Source Sans Pro';
   text-align: center;
 }
 
@@ -133,7 +134,7 @@ hr{
   width:70px;
   color:#ffffff;
   box-shadow: 0 13px 26px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.16);
-  
+
   }
 
 .up{
@@ -144,8 +145,8 @@ hr{
   width:280px;
   display:block;
 margin:auto;
-  
-  
+
+
 }
 
 
@@ -259,7 +260,7 @@ box-shadow: 10px 10px 44px 15px rgba(0,0,0,0.14);
   -webkit-animation: animationFrames ease 1.5s;
   -webkit-animation-iteration-count: 1;
   -webkit-transform-origin: 50% 50%;
-  -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/ 
+  -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/
 }
 
 

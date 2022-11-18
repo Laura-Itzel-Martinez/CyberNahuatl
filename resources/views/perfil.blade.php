@@ -2,8 +2,8 @@
 
 @section('content')
 
-  
-<header class="cabezera">
+<br><br>
+<header class="cabezera ">
   <div class="perfil">
     <img class="perfil-foto" src="{{asset('img/nopal.jpg')}}"/>
   </div>

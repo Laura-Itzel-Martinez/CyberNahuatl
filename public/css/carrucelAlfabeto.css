@@ -2,12 +2,12 @@
 h2{
     text-align: center;
     font-size: 40px;
-    font-family: 'Alata', sans-serif;
+    font-family:'Source Sans Pro';
     margin-top: 20px;
-    
+
 }
 .btn1{
-   
+
         align-self: flex-end;
         font-weight: 400;
         font-size: 17px;
@@ -18,7 +18,7 @@ h2{
 
 .content-all{
     width: 150px;
-    
+
     margin: auto;
     perspective: 800px;
     position: relative;
@@ -27,7 +27,7 @@ h2{
 
 .content-carrousel{
     width: 100%;
-    
+
     position: absolute;
     animation: rotar 50s infinite linear;
     transform-style: preserve-3d;
@@ -40,19 +40,19 @@ h2{
 
 
 .content-carrousel figure{
-   
+
     width: 50%;
     height: 20px;
-    background-color:  #712130;
+    background-color:  #691C32 ;
     position: absolute;
     box-shadow: 0px 0px 20px 0px black;
     transition: all 300ms;
 
-    
+
 }
 
 .content-carrousel figure:hover{
-   
+
     box-shadow: 0px 0px 0px 0px black;
     transition: all 300ms;
 }
