@@ -1,9 +1,25 @@
-#colores{
+    
+#contenedor_colores{
 
-    text-align: center;
     margin-top: 100px;
 }
-#click{
+#id_colores{
 
-    margin-top: -900px;
+    position: relative;
+    width: 80%;
+    height: 100%;
+    margin: 0;
+    padding: 0 !important;
+    border: 0;
+    overflow-x: hidden;
+    overflow-y:visible;
+    background-size: cover;
+}
+#t_colores{
+    font-size: 20px;
+    text-align: center;
+}
+
+.modal_fade{
+    margin-top: 80px;
 }
