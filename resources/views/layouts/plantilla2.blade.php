@@ -8,14 +8,14 @@
     <link rel="shortcut icon" href="{{ asset('img/logoCyber.png') }}" type="image/x-icon">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="{{asset('css/navbarSistema.css') }}" rel="stylesheet">
     <link href="{{asset('librerias/fontawesome/css/all.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="librerias/fontawesome/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
     <link href="{{asset('css/curso.css') }}" rel="stylesheet">
     <link href="{{asset('css/carrucelAlfabeto.css') }}" rel="stylesheet">
@@ -28,7 +28,7 @@
     <link href="{{asset('css/colores.css') }}" rel="stylesheet">
   </head>
   <body>
-    
+
     <div id="wrapper" >
 
       <aside id="sidebar-wrapper" >
@@ -54,14 +54,14 @@
           </li>
         </ul>
       </aside>
-    
+
       <div id="navbar-wrapper" style="position: fixed">
         <nav class="navbar navbar-inverse" >
           <div class="container-fluid" >
             <div class="navbar-header" >
               <div class="row" id="barra" id="navbar-menu">
                 <a href="#" class="navbar-brand" id="sidebar-toggle"><i class="fa fa-bars"></i></a>
-                
+
                 <a href="{{ route('alfabeto')}}" id="op_">Alfabeto</a>
                 <a href="{{ route('numeracion')}}" id="op">Numeraciòn</a>
                 <a href="{{ route('cuerpo')}}" id="op">Cuerpo</a>
@@ -70,24 +70,24 @@
                 <a href="{{ route('animales')}}" id="op">Meses</a>
                 <a href="{{ route('animales')}}" id="op">Dias</a>
                 <div class="col" id="salir">
-                  
+
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       {{ Auth::user()->nombre }}
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                       <a class="dropdown-item" href="{{url('/logout')}}" style="color: black">Cerrar sesión</a>
-                      
-                      
+
+
                     </div>
-                  
+
                 </div>
-                
-                
+
+
             </div>
           </div>
         </nav>
       </div>
-    
+
       <section id="content-wrapper">
           <div class="row">
             <div class="col-lg-12">
@@ -95,9 +95,12 @@
             </div>
           </div>
       </section>
-    
+
+
     </div>
   <!--/.container-->
+
+
 
 
   <!--/.container-->
