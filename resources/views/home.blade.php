@@ -1,5 +1,10 @@
 @extends('layouts.plantilla2')
 
 @section('content')
-    <h1>CONTRUCCIÓN DE PAGINA</h1>
+
+    <div class="container" style="margin-top: 100px">
+        <div class="row">
+            <div class="col"><h1>CONTRUCCIÓN DE PAGINA</h1></div>
+        </div>
+    </div>
 @endsection

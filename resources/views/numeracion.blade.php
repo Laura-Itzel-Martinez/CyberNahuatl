@@ -38,7 +38,7 @@
               </table>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
               
             </div>
           </div>
@@ -76,7 +76,7 @@
               </table>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
               
             </div>
           </div>
@@ -114,7 +114,7 @@
               </table>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
             </div>
           </div>
         </div>
@@ -151,7 +151,7 @@
               </table>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
               
             </div>
           </div>
@@ -189,7 +189,7 @@
               </table>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
             </div>
           </div>
         </div>
@@ -226,7 +226,7 @@
               </table>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
               
             </div>
           </div>
@@ -264,7 +264,7 @@
               </table>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
               
             </div>
           </div>
@@ -302,7 +302,7 @@
               </table>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
               
             </div>
           </div>
@@ -340,7 +340,7 @@
               </table>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
               
             </div>
           </div>
@@ -378,7 +378,7 @@
               </table>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
               
             </div>
           </div>
@@ -416,7 +416,7 @@
               </table>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
            
             </div>
           </div>
@@ -454,7 +454,7 @@
               </table>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
               
             </div>
           </div>
@@ -492,7 +492,7 @@
               </table>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
               
             </div>
           </div>
@@ -576,100 +576,190 @@
       </div>
       <!-- Modal numero 16-->
       <div class="modal fade" id="exampleModal16" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Número 16</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-              ...
+              <table class="table table-striped" style="text-align: center">
+                <thead>
+                  <tr>
+                    
+                    <th scope="col">Nahuatl</th>
+                    <th scope="col">Español</th>
+                    <th scope="col">Pronunciación</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    
+                    <td>kaxtulle wan se </td>
+                    <td>Dieciseis</td>
+                    <td></td>
+                  </tr>
+                  </tr>
+                </tbody>
+              </table>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
+              
             </div>
           </div>
         </div>
       </div>
       <!-- Modal numero 17-->
       <div class="modal fade" id="exampleModal17" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Número 17</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-              ...
+              <table class="table table-striped" style="text-align: center">
+                <thead>
+                  <tr>
+                    
+                    <th scope="col">Nahuatl</th>
+                    <th scope="col">Español</th>
+                    <th scope="col">Pronunciación</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    
+                    <td>kaxtulle wan umme</td>
+                    <td>Diecisiete</td>
+                    <td></td>
+                  </tr>
+                  </tr>
+                </tbody>
+              </table>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
+              
             </div>
           </div>
         </div>
       </div>
       <!-- Modal numero 18-->
       <div class="modal fade" id="exampleModal18" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Número 18</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-              ...
+              <table class="table table-striped" style="text-align: center">
+                <thead>
+                  <tr>
+                    
+                    <th scope="col">Nahuatl</th>
+                    <th scope="col">Español</th>
+                    <th scope="col">Pronunciación</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    
+                    <td>kaxtulle wan yeye</td>
+                    <td>Dieciocho</td>
+                    <td></td>
+                  </tr>
+                  </tr>
+                </tbody>
+              </table>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
+              
             </div>
           </div>
         </div>
       </div>
       <!-- Modal numero 19-->
       <div class="modal fade" id="exampleModal19" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Número 19</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-              ...
+              <table class="table table-striped" style="text-align: center">
+                <thead>
+                  <tr>
+                    
+                    <th scope="col">Nahuatl</th>
+                    <th scope="col">Español</th>
+                    <th scope="col">Pronunciación</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    
+                    <td>kaxtulle wan nawe</td>
+                    <td>Diecinueve</td>
+                    <td></td>
+                  </tr>
+                  </tr>
+                </tbody>
+              </table>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
+              
             </div>
           </div>
         </div>
       </div>
       <!-- Modal numero 20-->
       <div class="modal fade" id="exampleModal20" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Número 20</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-              ...
+              <table class="table table-striped" style="text-align: center">
+                <thead>
+                  <tr>
+                    
+                    <th scope="col">Nahuatl</th>
+                    <th scope="col">Español</th>
+                    <th scope="col">Pronunciación</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    
+                    <td>se powalle </td>
+                    <td>Veinte</td>
+                    <td></td>
+                  </tr>
+                  </tr>
+                </tbody>
+              </table>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
+              
             </div>
           </div>
         </div>

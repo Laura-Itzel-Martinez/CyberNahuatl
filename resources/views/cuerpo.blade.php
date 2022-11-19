@@ -3,8 +3,8 @@
 @section('content')
 
 <body id="body_cuerpo">
-  <div id="particles-js"></div>
-<header class="contenedor header">
+  
+<header class="contenedor ">
   <div class="row mt-5" >
     <div class="col-sm-1">
       <input type="checkbox" name="" value="cuerpo" checked style="display: none" >
@@ -58,7 +58,7 @@
 </div>
     
 </header>
-<script src="{{ asset('js/particles.min.js') }}"></script>
+
 <script src="{{ asset('js/app_.js') }}"></script>
 </body>
 
