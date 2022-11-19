@@ -32,3 +32,4 @@ Route::get('/numeracion', [App\Http\Controllers\HomeController::class, 'numeraci
 Route::get('/cuerpo', [App\Http\Controllers\HomeController::class, 'cuerpo'])->name('cuerpo');
 Route::get('/animales', [App\Http\Controllers\HomeController::class, 'animales'])->name('animales');
 Route::get('/colores', [App\Http\Controllers\HomeController::class, 'colores'])->name('colores');
+Route::get('/meses', [App\Http\Controllers\HomeController::class, 'meses'])->name('meses');

@@ -24,20 +24,20 @@
     <link href="{{asset('css/cards3.css') }}" rel="stylesheet">
 </head>
 <body>
-    
+
         <header>
-    
+
             <!-- Image and text -->
           <nav>
             <a class="navbar-brand"  href="{{ url('/') }}">
                 <img src="{{asset('img/logoCyber.png') }}" width="50" height="50"  alt="" loading="lazy">
               <span style="color: white;" >CyberNahuatl</span>
-            
+
             </a>
-              
+
           </nav>
           @guest
-          
+
                 <nav>
                 @if (Route::has('login'))
                     <li class="nav-item">
@@ -49,16 +49,21 @@
                     <a class="nav-link" href="{{ route('register') }}"><span class=" btn" style="background-color: #cd0c36; color:white">Registrar</span></a>
                 </li>
                 @endif
-                @else 
-                
-                
+                @else
+
+
                 @endguest
-        
+
                 </nav>
             </header>
             @yield('content')
-        
-    
+
+            <div class="card-footer text-center"  >
+                 © 2022 - CyberNahuatl
+            </div>
+
+
+
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
