@@ -67,8 +67,7 @@
                 <a href="{{ route('cuerpo')}}" id="op">Cuerpo</a>
                 <a href="{{ route('animales')}}" id="op">Animales</a>
                 <a href="{{ route('colores')}}" id="op">Colores</a>
-                <a href="{{ route('animales')}}" id="op">Meses</a>
-                <a href="{{ route('animales')}}" id="op">Dias</a>
+                <a href="{{ route('meses')}}" id="op">Meses</a>
                 <div class="col" id="salir">
 
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

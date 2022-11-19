@@ -26,30 +26,33 @@ class HomeController extends Controller
         return view('home');
     }
     public function cursos(){
-        return view('cursos');  
+        return view('cursos');
     }
     public function diccionario(){
-        return view('diccionario');  
+        return view('diccionario');
     }
     public function perfil(){
-        return view('perfil');  
+        return view('perfil');
     }
     public function profesores(){
-        return view('profesores');  
+        return view('profesores');
     }
     public function alfabeto(){
-        return view('alfabeto');  
+        return view('alfabeto');
     }
     public function numeracion(){
-        return view('numeracion');  
+        return view('numeracion');
     }
     public function cuerpo(){
-        return view('cuerpo');  
+        return view('cuerpo');
     }
     public function animales(){
-        return view('animales');  
+        return view('animales');
     }
     public function colores(){
-        return view('colores');  
+        return view('colores');
+    }
+    public function meses(){
+        return view('meses');
     }
 }
