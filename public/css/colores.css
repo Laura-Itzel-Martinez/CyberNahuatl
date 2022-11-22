@@ -1,14 +1,14 @@
 
 #contenedor_colores{
 
-margin-top: 20px;
+    margin-top: 30px;
     font-family:'Source Sans Pro';
 }
 #id_colores{
 
     position: relative;
-    width: 80%;
-    height: 100%;
+    width: auto;
+    height: auto;
     margin: 0;
     padding: 0 !important;
     border: 0;
@@ -25,8 +25,8 @@ margin-top: 20px;
     margin-top: 80px;
 }
 #canvas{
-    width: 530px;
-    height:530px;
+    width: 450px;
+    height:450px;
 
 }
 .class{

@@ -3,7 +3,6 @@
 @section('content')
 
 <body id="body_cuerpo">
-
 <header>
   <div class="row mt-2" >
     <div class="col-sm-1">

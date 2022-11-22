@@ -4,7 +4,7 @@
 @section('content')
 
 <body  id="id_colores">
-    <div class="container" id="contenedor_colores">
+    <header id="contenedor_colores">
       <div class="row">
         <div class="col" style="text-align: center">
           <span><p style="color: black"><h1 class="display-1">Colores en Nahuatl</h1></p></span>
@@ -26,7 +26,7 @@
                 <canvas id="canvas" height="600px" width="600px">
                 </canvas>
             </div>
-        </div>
+        </header>
     </div>
 
 
