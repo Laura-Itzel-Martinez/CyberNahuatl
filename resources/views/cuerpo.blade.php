@@ -5,28 +5,31 @@
 <body id="body_cuerpo">
   
 <header class="contenedor ">
-  <div class="row mt-5" >
+  <div class="row" >
     <div class="col-sm-1">
       <input type="checkbox" name="" value="cuerpo" checked style="display: none" >
-    </div>
-
-      <div class="col-sm-3">
-        
-        <div  id="opcion"></div>
-      </div>
-      
-      <div class="col-sm-2">
-        <div  id="sexo" >
-
+      <div class="col-sm-1">
+        <div  id="opcion" style="display: none">
         </div>
       </div>
-      <div class="col"></div>
-      <div class="col-sm-5" style="margin-top: 20px">
+      <div class="col-sm-1">
+        <div  id="sexo" style="display: none">
+        </div>
+    </div>
+    </div>
+  </div>
+  <div class="row" style="text-align: center">
+    <div class="col">
+      <span><p style="color: black"><h1 class="display-1">CUERPO</h1></p></span>
+    </div>
+  </div>
+  <div class="row" style="margin-top: -20px">
+      <div class="col" style="text-align:center">
         <div  role="alert" >
-          selecciona alguna parte del cuerpo para saber su información
-       </div>
+          <h5>SELECCIONA ALGUNA PARTE DEL CUERPO PARA SABER SU INFORMACIÓN</h5>
+        </div>   
       </div>
-</div>
+  </div>
 <div class="row">
   <div class="col-sm-1"></div>
   <div class="col-sm-5" style="margin-top: 100px">
@@ -35,7 +38,7 @@
   <div class="col-sm-1"></div>
   <div class="col-sm-3">
     
-    <div align="center" class="mt-5" id="humanImg">
+    <div align="center" class="mt-3" id="humanImg">
       <!---Imagen---->
     </div>
     <map name="myMap" >
@@ -50,6 +53,9 @@
       <area class="area" shape="rect" id="oreja" coords="75,40,65,30" href="#">
       <area class="area" shape="rect" id="boca" coords="98,59,80,50" href="#">
       <area class="area" shape="rect" id="nariz" coords="93,53,80,45" href="#">
+      <area class="area" shape="rect" id="mano" coords="35,253,10,215" href="#">
+      <area class="area" shape="rect" id="rodilla" coords="85,340,60,320" href="#">
+      <area class="area" shape="rect" id="pie" coords="80,460,45,425" href="#">
     </map>
       
    
