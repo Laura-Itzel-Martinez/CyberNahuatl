@@ -2,6 +2,7 @@
 #contenedor_colores{
 
     margin-top: 100px;
+    font-family:'Source Sans Pro';
 }
 #id_colores{
 
@@ -22,4 +23,12 @@
 
 .modal_fade{
     margin-top: 80px;
+}
+#canvas{
+    width: 530px;
+    height:530px;
+    
+}
+.class{
+    font-family:'Source Sans Pro';
 }

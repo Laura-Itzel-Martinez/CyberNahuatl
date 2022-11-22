@@ -1,13 +1,19 @@
-
-
 @extends('layouts.plantilla3')
-
 @extends('layouts.plantilla2')
+
+
+
 
 @section('content')
 
 <body  id="id_colores">
     <div class="container" id="contenedor_colores">
+      <div class="row">
+        <div class="col" style="text-align: center">
+          <span><p style="color: black"><h1 class="display-1">COLORES NAHUATL</h1></p></span>
+        </div>
+      </div>
+      <br>
         <div class="row">
             <div class="col-md-6">
                 <br><br><br>
@@ -15,11 +21,11 @@
                    
                     <br><br><br><br>
                     <input type="button" value="Girar" onclick="miRuleta.startAnimation();" class="btn btn-success btn-lg"
-                          style="width: 200px;margin-left: 0px;border: 2px solid #ffffff">
+                          style="width: 150px;margin-left: 0px;border: 2px solid #ffffff">
                 </center>
                 <br><br>
             </div>
-            <div class="col-md-6">
+            <div class="col-sm-2">
                 <canvas id="canvas" height="600px" width="600px">
                 </canvas>
             </div>
