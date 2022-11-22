@@ -2,5 +2,5 @@
 
 @section('content')
 <br>
-    <h1>CONTRUCCIÓN DE PAGINA</h1>
+    <h1>CONTRUCCIÓN</h1>
 @endsection

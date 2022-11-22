@@ -14,9 +14,9 @@ input[type=radio]{
 }
 
 #body_cuerpo{
-  
+
   color: #000;
-  font-size: 18px;
+  font-size: 15px;
   font-family:'Source Sans Pro';
   font-weight: 300;
 }
@@ -30,7 +30,7 @@ width: 100%;
   background-position:center;
 margin-left: auto;
 margin-right: auto;
-  margin-top: 15px;
+
   padding: 20px 30px;
   position: relative;
   z-index: 99;

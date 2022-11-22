@@ -29,7 +29,7 @@
     <script src="{{ asset('js/ruleta_js/Winwheel.min.js') }}"></script>
     <script src="{{ asset('js/ruleta_js/TweenMax.min.js') }}"></script>
     <script src="{{ asset('js/ruleta_js/jQuery-2.1.4.min.js') }}"></script>
-    
+
 
   </head>
   <body>
@@ -72,8 +72,8 @@
                 <a href="{{ route('cuerpo')}}" id="op">Cuerpo</a>
                 <a href="{{ route('animales')}}" id="op">Animales</a>
                 <a href="{{ route('colores')}}" id="op">Colores</a>
-                <a href="{{ route('home')}}" id="op">Meses</a>
-                <a href="{{ route('home')}}" id="op">Dias</a>
+                <a href="{{ route('meses')}}" id="op">Meses</a>
+
                 <div class="col" id="salir">
 
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -127,6 +127,6 @@
    <script type="text/javascript" src="js/jquery.maphilight.min.js"></script>
    <script src="{{ asset('js/cuerpo.js') }}"></script>
    <script src="{{ asset('js/ruleta_js/bootstrap.js') }}"></script>
-   
+
   </body>
 </html>
