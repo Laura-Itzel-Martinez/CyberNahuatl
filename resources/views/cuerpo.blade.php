@@ -4,7 +4,7 @@
 
 <body id="body_cuerpo">
   
-<header class="contenedor ">
+<header>
   <div class="row" >
     <div class="col-sm-1">
       <input type="checkbox" name="" value="cuerpo" checked style="display: none" >
