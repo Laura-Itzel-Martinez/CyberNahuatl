@@ -21,10 +21,5 @@
   </div>
 </header>
 
-
-<main class="jumpotron">
-  <ul class="jumpotron-titulo">Calificaciones de los cursos en Nahualt:</ul>
-
-</main>
 </div>
 @endsection

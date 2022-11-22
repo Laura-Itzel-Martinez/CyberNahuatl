@@ -1,7 +1,8 @@
 @extends('layouts.plantilla2')
 
 @section('content')
-<span><p ><h1 class="display-1">Animales</h1></p></span>
+<br><br>
+<span ><p ><h5 class="display-4 text-center" >Animales en Nahuatl.</h5></p></span>
 
 
 <div class="wrapper">

@@ -3,9 +3,9 @@
 @section('content')
 
 <body id="body_cuerpo">
-  
-<header class="contenedor ">
-  <div class="row" >
+
+<header>
+  <div class="row mt-2" >
     <div class="col-sm-1">
       <input type="checkbox" name="" value="cuerpo" checked style="display: none" >
       <div class="col-sm-1">
@@ -20,14 +20,14 @@
   </div>
   <div class="row" style="text-align: center">
     <div class="col">
-      <span><p style="color: black"><h1 class="display-1">CUERPO</h1></p></span>
+      <span><p style="color: black"><h1 class="display-5">Partes del Cuerpo en Nahuatl</h1></p></span>
     </div>
   </div>
   <div class="row" style="margin-top: -20px">
       <div class="col" style="text-align:center">
         <div  role="alert" >
           <h5>SELECCIONA ALGUNA PARTE DEL CUERPO PARA SABER SU INFORMACIÓN</h5>
-        </div>   
+        </div>
       </div>
   </div>
 <div class="row">
@@ -37,7 +37,7 @@
   </div>
   <div class="col-sm-1"></div>
   <div class="col-sm-3">
-    
+
     <div align="center" class="mt-3" id="humanImg">
       <!---Imagen---->
     </div>
@@ -57,12 +57,12 @@
       <area class="area" shape="rect" id="rodilla" coords="85,340,60,320" href="#">
       <area class="area" shape="rect" id="pie" coords="80,460,45,425" href="#">
     </map>
-      
-   
+
+
   </div>
   <div class="col-sm-1"></div>
 </div>
-    
+
 </header>
 
 <script src="{{ asset('js/app_.js') }}"></script>

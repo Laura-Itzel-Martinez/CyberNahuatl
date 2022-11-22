@@ -1,7 +1,7 @@
-    
+
 #contenedor_colores{
 
-    margin-top: 100px;
+margin-top: 20px;
     font-family:'Source Sans Pro';
 }
 #id_colores{
@@ -27,7 +27,7 @@
 #canvas{
     width: 530px;
     height:530px;
-    
+
 }
 .class{
     font-family:'Source Sans Pro';
