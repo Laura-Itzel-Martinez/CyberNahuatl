@@ -7,7 +7,7 @@
     <div class="content-all">
         <div class="content-carrousel">
 
-          
+
             <figure><button class="btn1 " data-toggle="modal" data-target="#exampleModalA">
               <img src="{{asset('img/grafias/letraA.png')}}">
             </button></figure>
@@ -89,7 +89,7 @@
             </button></figure>
 
 
-           
+
         </div>
     </div>
     <div class="alert"  role="alert" style="margin-top: 34%;  background-color:  #ccc">
@@ -101,7 +101,10 @@
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras el Nahualt</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras el Nahualt.
+
+            </h5>
+
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -147,7 +150,7 @@
                        Papel
                     </div>
                   </div></td>
-  
+
                 </tr>
                 <tr>
                   <td scope="row">
@@ -2018,7 +2021,7 @@
       </div>
     </div>
 
-  
-   
-  
+
+
+
 @endsection

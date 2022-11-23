@@ -14,12 +14,11 @@
     <div class="cards-wrapper">
       <div class="card">
         <div class="card--data">
-          <h3 class="card--title">Diseno de interiores</h3>
-          <a href=""><button class="btn" name="" id="" class="btn btn-outline-dark" ><i class="fa fa-arrow-right" aria-hidden="true"></i> Empezar</button></a>
+          <h3 class="card--title">Caracteristica del Nahuatl.</h3>
+          <a href=""><button type="button" name="" id="" class="btn" style="background-color:#9F2241; color:white"  ><i class="fa fa-arrow-right" aria-hidden="true" style="color: white"></i> Empezar</button></a>
 
         </div>
         <div class="card-img-wrapper">
-          <img src="https://raw.githubusercontent.com/JoelLH/Images/main/Scrimba%20Images/Smart%20home-amico.png" alt="">
 
         </div>
         <div class="card-img-deco">
@@ -27,33 +26,33 @@
       </div>
       <div class="card">
         <div class="card--data">
-          <h3 class="card--title">Diseno de interiores</h3>
-          <a href=""><button type="button" name="" id="" class="btn btn-outline-dark" ><i class="fa fa-arrow-right" aria-hidden="true"></i> Empezar</button></a>
+          <h3 class="card--title">Absolutivos.</h3>
+          <a href=""><button type="button" name="" id="" class="btn" style="background-color:#9F2241; color:white"  ><i class="fa fa-arrow-right" aria-hidden="true" style="color: white"></i> Empezar</button></a>
         </div>
         <div class="card-img-wrapper">
-          <img src="https://raw.githubusercontent.com/JoelLH/Images/main/Scrimba%20Images/Smart%20home-amico.png" alt="">
+
         </div>
           <div class="card-img-deco deco-2">
         </div>
       </div>
       <div class="card">
         <div class="card--data">
-          <h3 class="card--title">Diseno de interiores</h3>
-          <a href=""><button type="button" name="" id="" class="btn btn-outline-dark" ><i class="fa fa-arrow-right" aria-hidden="true"></i> Empezar</button></a>
+          <h3 class="card--title">Plurales Simples.</h3>
+          <a href=""><button type="button" name="" id="" class="btn" style="background-color:#9F2241; color:white"  ><i class="fa fa-arrow-right" aria-hidden="true" style="color: white"></i> Empezar</button></a>
         </div>
         <div class="card-img-wrapper">
-          <img src="https://raw.githubusercontent.com/JoelLH/Images/main/Scrimba%20Images/Smart%20home-amico.png" alt="">
+
         </div>
         <div class="card-img-deco deco-3">
       </div>
       </div>
       <div class="card">
         <div class="card--data">
-          <h3 class="card--title">Diseno de interiores</h3>
-          <a href=""><button type="button" name="" id="" class="btn btn-outline-dark" ><i class="fa fa-arrow-right" aria-hidden="true"></i> Empezar</button></a>
+          <h3 class="card--title">Marcas del sujeto.</h3>
+          <a href=""><button type="button" name="" id="" class="btn" style="background-color:#9F2241; color:white"  ><i class="fa fa-arrow-right" aria-hidden="true" style="color: white"></i> Empezar</button></a>
         </div>
         <div class="card-img-wrapper">
-          <img src="https://raw.githubusercontent.com/JoelLH/Images/main/Scrimba%20Images/Smart%20home-amico.png" alt="">
+
 
         </div>
         <div class="card-img-deco deco-4">
@@ -61,11 +60,11 @@
       </div>
       <div class="card">
         <div class="card--data">
-          <h3 class="card--title">Diseno de interiores</h3>
-          <a href=""><button type="button" name="" id="" class="btn btn-outline-dark" ><i class="fa fa-arrow-right" aria-hidden="true"></i> Empezar</button></a>
+          <h3 class="card--title">Reverenciales (Afecto).</h3>
+          <a href=""><button type="button" name="" id="" class="btn" style="background-color:#9F2241; color:white"  ><i class="fa fa-arrow-right" aria-hidden="true" style="color: white"></i> Empezar</button></a>
         </div>
         <div class="card-img-wrapper">
-          <img src="https://raw.githubusercontent.com/JoelLH/Images/main/Scrimba%20Images/Smart%20home-amico.png" alt="">
+
 
         </div>
         <div class="card-img-deco deco-5">
@@ -73,17 +72,26 @@
       </div>
       <div class="card">
         <div class="card--data">
-          <h3 class="card--title">Diseno de interiores</h3>
-          <a href=""><button type="button" name="" id="" class="btn btn-outline-dark" ><i class="fa fa-arrow-right" aria-hidden="true"></i> Empezar</button></a>
+          <h3 class="card--title">Diminutivos (Tamaño).</h3>
+          <a href=""><button type="button" name="" id="" class="btn" style="background-color:#9F2241; color:white"  ><i class="fa fa-arrow-right" aria-hidden="true" style="color: white"></i> Empezar</button></a>
         </div>
         <div class="card-img-wrapper">
-          <img src="https://raw.githubusercontent.com/JoelLH/Images/main/Scrimba%20Images/Smart%20home-amico.png" alt="">
+
 
         </div>
         <div class="card-img-deco deco-6">
       </div>
       </div>
-    </div>
+      <div class="card">
+        <div class="card--data">
+          <h3 class="card--title">Posesivos.</h3>
+          <a href=""><button type="button" name="" id="" class="btn" style="background-color:#9F2241; color:white"  ><i class="fa fa-arrow-right" aria-hidden="true" style="color: white"></i> Empezar</button></a>
+        </div>
+        <div class="card-img-wrapper">
+        </div>
+        <div class="card-img-deco deco-7">
+      </div>
+      </div>
   </main>
 
 

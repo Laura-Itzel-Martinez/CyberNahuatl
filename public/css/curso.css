@@ -102,7 +102,7 @@ main{
     position: absolute;
     z-index: 1;
     right: -50px;
-    background-color: #9F2241;
+    background-color: #BC955C;
     transition: all ease-in-out .35s;
   }
   .card:hover .card-img-deco{
@@ -112,20 +112,23 @@ main{
 
   }
   .deco-2{
-    background-color: #BC955C;
+    background-color: #DDC9A3;
   }
   .deco-3{
-    background-color: #691C32;
-  }
-  .deco-4{
     background-color: #DDc9A3;
   }
+  .deco-4{
+    background-color: #BC955C;
+  }
   .deco-5{
-    background-color: #235B4E;
+    background-color: #BC955C;
   }
 
   .deco-6{
-    background-color: #9F2241 ;
+    background-color: #DDc9A3 ;
+  }
+  .deco-7{
+    background-color: #DDc9A3 ;
   }
   @media screen and (max-width: 1200px){
     main{
