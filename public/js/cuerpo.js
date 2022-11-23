@@ -51,7 +51,7 @@ $(document).ready(function () {
             
                <tr style="color:#32383e;text-align:center">
                      <td id="td_cuerpo">Cabeza</td>
-                     <td id="td_cuerpo">Tsonteko o kwaitl, </td>
+                     <td id="td_cuerpo">kwaitl, </td>
                      
                </tr>
          

@@ -30,9 +30,11 @@
                    
                     <td>sentetl, se </td>
                     <td>Uno</td>
-                    <td></td>
-                  </tr>
-                 
+                    <td>
+                      <audio controls>
+                        <source src="{{asset('audios/numeros/numero_uno.mp3')}}" type="audio/mp3">
+                      </audio>
+                    </td>
                   </tr>
                 </tbody>
               </table>
@@ -69,7 +71,11 @@
                     
                     <td>summe</td>
                     <td>Dos</td>
-                    <td></td>
+                    <td>
+                      <audio controls>
+                        <source src="{{asset('audios/numeros/numero_dos.mp3')}}" type="audio/mp3">
+                      </audio>
+                    </td>
                   </tr>
                   </tr>
                 </tbody>
@@ -107,7 +113,11 @@
                     
                     <td>yeye</td>
                     <td>Tres</td>
-                    <td></td>
+                    <td>
+                      <audio controls>
+                        <source src="{{asset('audios/numeros/numero_tres.mp3')}}" type="audio/mp3">
+                      </audio>
+                    </td>
                   </tr>
                   </tr>
                 </tbody>
@@ -144,7 +154,11 @@
                     
                     <td>nawe</td>
                     <td>Cuatro</td>
-                    <td></td>
+                    <td>
+                      <audio controls>
+                        <source src="{{asset('audios/numeros/numero_cuatro.mp3')}}" type="audio/mp3">
+                      </audio>
+                    </td>
                   </tr>
                   </tr>
                 </tbody>
@@ -182,7 +196,11 @@
                     
                     <td>makwille</td>
                     <td>Cinco</td>
-                    <td></td>
+                    <td>
+                      <audio controls>
+                        <source src="{{asset('audios/numeros/numero_cinco.mp3')}}" type="audio/mp3">
+                      </audio>
+                    </td>
                   </tr>
                   </tr>
                 </tbody>
@@ -219,7 +237,11 @@
                     
                     <td>Chikwase</td>
                     <td>Seis</td>
-                    <td></td>
+                    <td>
+                      <audio controls>
+                        <source src="{{asset('audios/numeros/numero_seis.mp3')}}" type="audio/mp3">
+                      </audio>
+                    </td>
                   </tr>
                   </tr>
                 </tbody>
@@ -257,7 +279,11 @@
                     
                     <td>Chik umme</td>
                     <td>Siete</td>
-                    <td></td>
+                    <td>
+                      <audio controls>
+                        <source src="{{asset('audios/numeros/numero_siete.mp3')}}" type="audio/mp3">
+                      </audio>
+                    </td>
                   </tr>
                   </tr>
                 </tbody>
@@ -295,7 +321,11 @@
                     
                     <td>Chik weye</td>
                     <td>Ocho</td>
-                    <td></td>
+                    <td>
+                      <audio controls>
+                        <source src="{{asset('audios/numeros/numero_ocho.mp3')}}" type="audio/mp3">
+                      </audio>
+                    </td>
                   </tr>
                   </tr>
                 </tbody>
@@ -333,7 +363,11 @@
                     
                     <td>Chik nawe</td>
                     <td>Nueve</td>
-                    <td></td>
+                    <td>
+                      <audio controls>
+                        <source src="{{asset('audios/numeros/numero_nueve.mp3')}}" type="audio/mp3">
+                      </audio>
+                    </td>
                   </tr>
                   </tr>
                 </tbody>
@@ -371,7 +405,11 @@
                     
                     <td>mahtlaktle</td>
                     <td>Diez</td>
-                    <td></td>
+                    <td>
+                      <audio controls>
+                        <source src="{{asset('audios/numeros/numero_diez.mp3')}}" type="audio/mp3">
+                      </audio>
+                    </td>
                   </tr>
                   </tr>
                 </tbody>
@@ -409,7 +447,11 @@
                     
                     <td>mahtlaktle wan se</td>
                     <td>Once</td>
-                    <td></td>
+                    <td>
+                      <audio controls>
+                        <source src="{{asset('audios/numeros/numero_once.mp3')}}" type="audio/mp3">
+                      </audio>
+                    </td>
                   </tr>
                   </tr>
                 </tbody>
@@ -447,7 +489,11 @@
                     
                     <td>mahtlaktle wan umme</td>
                     <td>Doce</td>
-                    <td></td>
+                    <td>
+                      <audio controls>
+                        <source src="{{asset('audios/numeros/numero_doce.mp3')}}" type="audio/mp3">
+                      </audio>
+                    </td>
                   </tr>
                   </tr>
                 </tbody>
@@ -485,7 +531,11 @@
                     
                     <td>mahtlaktle wan yeye</td>
                     <td>Trece</td>
-                    <td></td>
+                    <td>
+                      <audio controls>
+                        <source src="{{asset('audios/numeros/numero_trece.mp3')}}" type="audio/mp3">
+                      </audio>
+                    </td>
                   </tr>
                   </tr>
                 </tbody>
@@ -523,7 +573,11 @@
                     
                     <td>mahtlaktle wan nawe</td>
                     <td>Catorce</td>
-                    <td></td>
+                    <td>
+                      <audio controls>
+                        <source src="{{asset('audios/numeros/numero_catorce.mp3')}}" type="audio/mp3">
+                      </audio>
+                    </td>
                   </tr>
                   </tr>
                 </tbody>
@@ -561,7 +615,11 @@
                     
                     <td>kaxtulle</td>
                     <td>Quince</td>
-                    <td></td>
+                    <td>
+                      <audio controls>
+                        <source src="{{asset('audios/numeros/numero_quince.mp3')}}" type="audio/mp3">
+                      </audio>
+                    </td>
                   </tr>
                   </tr>
                 </tbody>
@@ -599,7 +657,11 @@
                     
                     <td>kaxtulle wan se </td>
                     <td>Dieciseis</td>
-                    <td></td>
+                    <td>
+                      <audio controls>
+                        <source src="{{asset('audios/numeros/numero_dieciseis.mp3')}}" type="audio/mp3">
+                      </audio>
+                    </td>
                   </tr>
                   </tr>
                 </tbody>
@@ -637,7 +699,11 @@
                     
                     <td>kaxtulle wan umme</td>
                     <td>Diecisiete</td>
-                    <td></td>
+                    <td>
+                      <audio controls>
+                        <source src="{{asset('audios/numeros/numero_diecisiete.mp3')}}" type="audio/mp3">
+                      </audio>
+                    </td>
                   </tr>
                   </tr>
                 </tbody>
@@ -675,7 +741,11 @@
                     
                     <td>kaxtulle wan yeye</td>
                     <td>Dieciocho</td>
-                    <td></td>
+                    <td>
+                      <audio controls>
+                        <source src="{{asset('audios/numeros/numero_dieciocho.mp3')}}" type="audio/mp3">
+                      </audio>
+                    </td>
                   </tr>
                   </tr>
                 </tbody>
@@ -713,7 +783,11 @@
                     
                     <td>kaxtulle wan nawe</td>
                     <td>Diecinueve</td>
-                    <td></td>
+                    <td>
+                      <audio controls>
+                        <source src="{{asset('audios/numeros/numero_diecinueve.mp3')}}" type="audio/mp3">
+                      </audio>
+                    </td>
                   </tr>
                   </tr>
                 </tbody>
@@ -751,7 +825,11 @@
                     
                     <td>se powalle </td>
                     <td>Veinte</td>
-                    <td></td>
+                    <td>
+                      <audio controls>
+                        <source src="{{asset('audios/numeros/numero_veinte.mp3')}}" type="audio/mp3">
+                      </audio>
+                    </td>
                   </tr>
                   </tr>
                 </tbody>
