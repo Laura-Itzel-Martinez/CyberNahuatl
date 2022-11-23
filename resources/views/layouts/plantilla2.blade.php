@@ -26,6 +26,7 @@
     <link href="{{asset('css/alfabeto.css') }}" rel="stylesheet">
     <link href="{{asset('css/animales.css') }}" rel="stylesheet">
     <link href="{{asset('css/colores.css') }}" rel="stylesheet">
+    <link href="{{asset('css/meses.css') }}" rel="stylesheet">
     <script src="{{ asset('js/ruleta_js/Winwheel.min.js') }}"></script>
     <script src="{{ asset('js/ruleta_js/TweenMax.min.js') }}"></script>
     <script src="{{ asset('js/ruleta_js/jQuery-2.1.4.min.js') }}"></script>
