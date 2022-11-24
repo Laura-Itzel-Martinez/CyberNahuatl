@@ -33,3 +33,11 @@ Route::get('/cuerpo', [App\Http\Controllers\HomeController::class, 'cuerpo'])->n
 Route::get('/animales', [App\Http\Controllers\HomeController::class, 'animales'])->name('animales');
 Route::get('/colores', [App\Http\Controllers\HomeController::class, 'colores'])->name('colores');
 Route::get('/meses', [App\Http\Controllers\HomeController::class, 'meses'])->name('meses');
+
+//rutas de los cursos
+Route::get('/cursos/marcasSujetos', [App\Http\Controllers\Cursos::class, 'marcasSujetos'])->name('marcasSujetos');
+Route::get('/cursos/reverenciales', [App\Http\Controllers\Cursos::class, 'reverenciales'])->name('reverenciales');
+Route::get('/cursos/diminutivos', [App\Http\Controllers\Cursos::class, 'diminutivos'])->name('diminutivos');
+Route::get('/cursos/posesivos', [App\Http\Controllers\Cursos::class, 'posesivos'])->name('posesivos');
+
+

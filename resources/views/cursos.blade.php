@@ -49,7 +49,7 @@
       <div class="card">
         <div class="card--data">
           <h3 class="card--title">Marcas del sujeto.</h3>
-          <a href=""><button type="button" name="" id="" class="btn" style="background-color:#9F2241; color:white"  ><i class="fa fa-arrow-right" aria-hidden="true" style="color: white"></i> Empezar</button></a>
+          <a href="{{ route('marcasSujetos')}}"><button type="button" name="" id="" class="btn" style="background-color:#9F2241; color:white"  ><i class="fa fa-arrow-right" aria-hidden="true" style="color: white"></i> Empezar</button></a>
         </div>
         <div class="card-img-wrapper">
 
@@ -61,7 +61,7 @@
       <div class="card">
         <div class="card--data">
           <h3 class="card--title">Reverenciales (Afecto).</h3>
-          <a href=""><button type="button" name="" id="" class="btn" style="background-color:#9F2241; color:white"  ><i class="fa fa-arrow-right" aria-hidden="true" style="color: white"></i> Empezar</button></a>
+          <a href="{{ route('reverenciales')}}"><button type="button" name="" id="" class="btn" style="background-color:#9F2241; color:white"  ><i class="fa fa-arrow-right" aria-hidden="true" style="color: white"></i> Empezar</button></a>
         </div>
         <div class="card-img-wrapper">
 
@@ -73,7 +73,7 @@
       <div class="card">
         <div class="card--data">
           <h3 class="card--title">Diminutivos (Tamaño).</h3>
-          <a href=""><button type="button" name="" id="" class="btn" style="background-color:#9F2241; color:white"  ><i class="fa fa-arrow-right" aria-hidden="true" style="color: white"></i> Empezar</button></a>
+          <a href="{{ route('diminutivos')}}"><button type="button" name="" id="" class="btn" style="background-color:#9F2241; color:white"  ><i class="fa fa-arrow-right" aria-hidden="true" style="color: white"></i> Empezar</button></a>
         </div>
         <div class="card-img-wrapper">
 
@@ -85,7 +85,7 @@
       <div class="card">
         <div class="card--data">
           <h3 class="card--title">Posesivos.</h3>
-          <a href=""><button type="button" name="" id="" class="btn" style="background-color:#9F2241; color:white"  ><i class="fa fa-arrow-right" aria-hidden="true" style="color: white"></i> Empezar</button></a>
+          <a href="{{ route('posesivos')}}"><button type="button" name="" id="" class="btn" style="background-color:#9F2241; color:white"  ><i class="fa fa-arrow-right" aria-hidden="true" style="color: white"></i> Empezar</button></a>
         </div>
         <div class="card-img-wrapper">
         </div>
