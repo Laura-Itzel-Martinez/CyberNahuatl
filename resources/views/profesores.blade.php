@@ -6,7 +6,7 @@
 
   <div class="row" style="margin-top: 40px">
     <div class="col">
-      <p><h2>Profesores de la lengua Nahuatl</h2></p>
+      <p><h2>Colaboradores.</h2></p>
     </div>
   </div>
 
@@ -14,17 +14,11 @@
     <!--card-1-->
 
     <div class="cards_p color-card">
-      <img src="{{asset('img/profe_osvaldo.jpg')}}" alt="profile-pic" class="profile">
-      <h4 class="title">Profesor Oswaldo Galicia Calderón </h4>
-      <p class="job-title">Hablante de la lengua Nahuatl</p>
-
+      <img src="{{asset('img/itma2.webp')}}" alt="profile-pic" class="profile">
+      <h4 class="title">TECNM Campus Milpa Alta II </h4>
       <hr>
       <h5 id="texto">
-        Originario de la comunidad de Santa Ana Tlacotenco, nahuablante, aprendio la lengua náhuatl desde niño
-        a lado de sus padres, abuelos yen la comunidad.
-
-        Tiene ormación como profesor de lengua náhuatl (variante masewalkopa) y, forma parte de un proyecto
-        comunitariode fortalecimiento , difusión y enseñanza de la lengua náhuatl variante de Santa Ana Tlacontenco, Milpa Alta.
+        Directora del Instituto Tecnológico de Milpa Alta II, Tonantzin Ponce Martínez.
       </h5>
 
     </div>
@@ -34,16 +28,10 @@
 
   <div class="grid- element-animation">
     <div class="cards_p color-card-2">
-      <img src="{{asset('img/profe_jose.jpg')}}" alt="profile-pic" class="profile">
-      <h4 class="title-2">Profesor José Ortiz Rivera </h4>
-      <p class="job-title"> Hablante de la lengua Nahuatl</p>
-
+      <img src="{{asset('img/alcaldia.png')}}" alt="profile-pic" class="profile">
+      <h4 class="title-2">Alcaldia de Milpa Alta</h4>
       <hr class="hr-2">
-      <h5 id="texto">Revitalizador de la lengua náhuatl desde el arte y la cultura, es originario de Santa Ana Tlacotenco,
-      Milpa Alta y ahí, en su comunidad, ha impulsado que siga viva la lengua nahuatl, por medio del canto, la pintura y
-      la escultura. Además, defiende la idea de mantener vivas las lenguas aprendiendo de los y las abuelas.
-      Conoce el reciente proyecto de José Ortiz, Casa de Cultura “Kaltlamahchichihke”, donde se alberga la obra de varios autores
-      con la cosmovisión del pueblo de Santa Ana Tlacotenco, ubicada en Guadalupe y Ramírez 69, Santa Ana Tlacontenco, Milpa Alta .</h5>
+      <h5 id="texto">Alcaldesa de Milpa Alta Judith Vanegas Tapia.</h5>
     </div>
   </div>
 </div>

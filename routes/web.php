@@ -42,5 +42,7 @@ Route::get('/cursos/omnipredicativa', [App\Http\Controllers\Cursos::class, 'omni
 Route::get('/cursos/absolutivos', [App\Http\Controllers\Cursos::class, 'absolutivos'])->name('absolutivos');
 Route::get('/cursos/diminutivos', [App\Http\Controllers\Cursos::class, 'diminutivos'])->name('diminutivos');
 Route::get('/cursos/posesivos', [App\Http\Controllers\Cursos::class, 'posesivos'])->name('posesivos');
+Route::get('/cursos/absolutivos', [App\Http\Controllers\Cursos::class, 'absolutivos'])->name('absolutivos');
+Route::get('/cursos/pluralesSimples', [App\Http\Controllers\Cursos::class, 'pluralesSimples'])->name('pluralesSimples');
 
 

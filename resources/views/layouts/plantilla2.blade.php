@@ -41,22 +41,26 @@
         <div class="sidebar-brand">
           <h2>CyberNahualt</h2>
         </div>
-        <ul class="sidebar-nav mt-4" >
-          <li class="">
-            <a href="{{ route('home')}}"><i class="fa fa-home"></i>Home</a>
-          </li>
+        <ul class="sidebar-nav" ><br>
+
           <li>
-            <a href="{{ route('cursos')}}"><i class="fa fa-outdent"></i>Cursos</a>
-          </li>
+            <a href="{{ route('alfabeto')}}" id="op"><i class="fa fa-font" aria-hidden="true"></i>Alfabeto</a>
+          </li><br>
           <li>
-            <a href="{{ route('diccionario')}}"><i class="fa fa-search"></i>Diccionario</a>
-          </li>
-          <hr>
+            <a href="{{ route('numeracion')}}" id="op"><i class="fa fa-list-ol" aria-hidden="true"></i>Numeraciòn</a>
+          </li><br>
           <li>
-            <a href="{{ route('perfil')}}"><i class="fa fa-user"></i>Perfil</a>
-          </li>
+            <a href="{{ route('cuerpo')}}" id="op"><i class="fa fa-universal-access" aria-hidden="true"></i>Cuerpo</a>
+          </li><br>
           <li>
-            <a href="{{ route('profesores')}}"><i class="fa fa-users" aria-hidden="true"></i>Profesores</a>
+            <a href="{{ route('animales')}}" id="op"><i class="fa fa-bug" aria-hidden="true"></i>Animales</a>
+
+          </li><br>
+          <li>
+            <a href="{{ route('colores')}}" id="op"><i class="fa fa-th-large" aria-hidden="true"></i>Colores</a>
+          </li><br>
+          <li>
+            <a href="{{ route('meses')}}" id="op"><i class="fa fa-calendar-minus" aria-hidden="true"></i>Meses</a>
           </li>
         </ul>
       </aside>
@@ -68,22 +72,27 @@
               <div class="row" id="barra" id="navbar-menu">
                 <a href="#" class="navbar-brand" id="sidebar-toggle"><i class="fa fa-bars"></i></a>
 
-                <a href="{{ route('alfabeto')}}" id="op_">Alfabeto</a>
-                <a href="{{ route('numeracion')}}" id="op">Numeraciòn</a>
-                <a href="{{ route('cuerpo')}}" id="op">Cuerpo</a>
-                <a href="{{ route('animales')}}" id="op">Animales</a>
-                <a href="{{ route('colores')}}" id="op">Colores</a>
-                <a href="{{ route('meses')}}" id="op">Meses</a>
+                <a href="{{ route('home')}}"><i class="fa fa-home"></i> Home</a>
+                <div class="col-sm-1"></div>
+                <a href="{{ route('cursos')}}"><i class="fa fa-outdent"></i> Cursos</a>
+                <div class="col-sm-1"></div>
+                <a href="{{ route('diccionario')}}"><i class="fa fa-search"></i> Diccionario</a>
+                <div class="col-sm-1"></div>
+                <a href="{{ route('profesores')}}"><i class="fa fa-users" aria-hidden="true"></i> Colaboradores</a>
+
+
+
 
                 <div class="col" id="salir">
 
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      {{ Auth::user()->nombre }}
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                        <i class="fa fa-user" aria-hidden="true"></i> {{ Auth::user()->nombre }}
                     </a>
+
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" style="color: black">Correo: {{ Auth::user()->email}}</a>
+
                       <a class="dropdown-item" href="{{url('/logout')}}" style="color: black">Cerrar sesión</a>
-
-
                     </div>
 
                 </div>

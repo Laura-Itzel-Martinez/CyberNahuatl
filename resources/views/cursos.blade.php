@@ -72,8 +72,8 @@
       </div>
       <div class="card">
         <div class="card--data">
-          <h3 class="card--title">Diminutivos (Tamaño).</h3>
-          <a href="{{ route('diminutivos')}}"><button type="button" name="" id="" class="btn" style="background-color:#9F2241; color:white"  ><i class="fa fa-arrow-right" aria-hidden="true" style="color: white"></i> Empezar</button></a>
+          <h3 class="card--title">• Plurales Simples.<h3>
+          <a href="{{ route('pluralesSimples')}}"><button type="button" name="" id="" class="btn" style="background-color:#9F2241; color:white"  ><i class="fa fa-arrow-right" aria-hidden="true" style="color: white"></i> Empezar</button></a>
         </div>
         <div class="card-img-wrapper">
 
@@ -84,14 +84,48 @@
       </div>
       <div class="card">
         <div class="card--data">
-          <h3 class="card--title">Posesivos.</h3>
-          <a href="{{ route('posesivos')}}"><button type="button" name="" id="" class="btn" style="background-color:#9F2241; color:white"  ><i class="fa fa-arrow-right" aria-hidden="true" style="color: white"></i> Empezar</button></a>
+          <h3 class="card--title">• Marcas de sujeto.</h3>
+          <a href="{{ route('marcasSujetos')}}"><button type="button" name="" id="" class="btn" style="background-color:#9F2241; color:white"  ><i class="fa fa-arrow-right" aria-hidden="true" style="color: white"></i> Empezar</button></a>
         </div>
         <div class="card-img-wrapper">
         </div>
         <div class="card-img-deco deco-7">
+         </div>
       </div>
+
+      <div class="card">
+        <div class="card--data">
+          <h3 class="card--title">• Diminutivos.</h3>
+          <a href="{{ route('diminutivos')}}"><button type="button" name="" id="" class="btn" style="background-color:#9F2241; color:white"  ><i class="fa fa-arrow-right" aria-hidden="true" style="color: white"></i> Empezar</button></a>
+        </div>
+        <div class="card-img-wrapper">
+        </div>
+        <div class="card-img-deco deco-8">
+         </div>
       </div>
+
+      <div class="card">
+        <div class="card--data">
+          <h3 class="card--title">•Reverenciales</h3>
+          <a href="{{ route('reverenciales')}}"><button type="button" name="" id="" class="btn" style="background-color:#9F2241; color:white"  ><i class="fa fa-arrow-right" aria-hidden="true" style="color: white"></i> Empezar</button></a>
+        </div>
+        <div class="card-img-wrapper">
+        </div>
+        <div class="card-img-deco deco-9">
+         </div>
+      </div>
+
+      <div class="card">
+        <div class="card--data">
+          <h3 class="card--title">• Posesivos.</h3>
+          <a href="{{ route('posesivos')}}"><button type="button" name="" id="" class="btn" style="background-color:#9F2241; color:white"  ><i class="fa fa-arrow-right" aria-hidden="true" style="color: white"></i> Empezar</button></a>
+        </div>
+        <div class="card-img-wrapper">
+        </div>
+        <div class="card-img-deco deco-10">
+         </div>
+      </div>
+
   </main>
 
 
