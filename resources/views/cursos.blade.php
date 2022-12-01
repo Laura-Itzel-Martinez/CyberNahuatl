@@ -14,8 +14,8 @@
     <div class="cards-wrapper">
       <div class="card">
         <div class="card--data">
-          <h3 class="card--title">Caracteristica del Nahuatl.</h3>
-          <a href=""><button type="button" name="" id="" class="btn" style="background-color:#9F2241; color:white"  ><i class="fa fa-arrow-right" aria-hidden="true" style="color: white"></i> Empezar</button></a>
+          <h3 class="card--title"> Morfológica o aglutinante</h3>
+          <a href="{{ route('morfologica')}}"><button type="button" name="" id="" class="btn" style="background-color:#9F2241; color:white"  ><i class="fa fa-arrow-right" aria-hidden="true" style="color: white"></i> Empezar</button></a>
 
         </div>
         <div class="card-img-wrapper">
@@ -26,8 +26,8 @@
       </div>
       <div class="card">
         <div class="card--data">
-          <h3 class="card--title">Absolutivos.</h3>
-          <a href=""><button type="button" name="" id="" class="btn" style="background-color:#9F2241; color:white"  ><i class="fa fa-arrow-right" aria-hidden="true" style="color: white"></i> Empezar</button></a>
+          <h3 class="card--title"> Honorifico o reverencial</h3>
+          <a href="{{ route('honorifico')}}"><button type="button" name="" id="" class="btn" style="background-color:#9F2241; color:white"  ><i class="fa fa-arrow-right" aria-hidden="true" style="color: white"></i> Empezar</button></a>
         </div>
         <div class="card-img-wrapper">
 
@@ -37,8 +37,8 @@
       </div>
       <div class="card">
         <div class="card--data">
-          <h3 class="card--title">Plurales Simples.</h3>
-          <a href=""><button type="button" name="" id="" class="btn" style="background-color:#9F2241; color:white"  ><i class="fa fa-arrow-right" aria-hidden="true" style="color: white"></i> Empezar</button></a>
+          <h3 class="card--title">Metafórica</h3>
+          <a href="{{ route('metaforica')}}"><button type="button" name="" id="" class="btn" style="background-color:#9F2241; color:white"  ><i class="fa fa-arrow-right" aria-hidden="true" style="color: white"></i> Empezar</button></a>
         </div>
         <div class="card-img-wrapper">
 
@@ -48,8 +48,8 @@
       </div>
       <div class="card">
         <div class="card--data">
-          <h3 class="card--title">Marcas del sujeto.</h3>
-          <a href="{{ route('marcasSujetos')}}"><button type="button" name="" id="" class="btn" style="background-color:#9F2241; color:white"  ><i class="fa fa-arrow-right" aria-hidden="true" style="color: white"></i> Empezar</button></a>
+          <h3 class="card--title"> Omnipredicativa</h3>
+          <a href="{{ route('omnipredicativa')}}"><button type="button" name="" id="" class="btn" style="background-color:#9F2241; color:white"  ><i class="fa fa-arrow-right" aria-hidden="true" style="color: white"></i> Empezar</button></a>
         </div>
         <div class="card-img-wrapper">
 
@@ -60,8 +60,8 @@
       </div>
       <div class="card">
         <div class="card--data">
-          <h3 class="card--title">Reverenciales (Afecto).</h3>
-          <a href="{{ route('reverenciales')}}"><button type="button" name="" id="" class="btn" style="background-color:#9F2241; color:white"  ><i class="fa fa-arrow-right" aria-hidden="true" style="color: white"></i> Empezar</button></a>
+          <h3 class="card--title"> Absolutivos (ABS)</h3>
+          <a href="{{ route('absolutivos')}}"><button type="button" name="" id="" class="btn" style="background-color:#9F2241; color:white"  ><i class="fa fa-arrow-right" aria-hidden="true" style="color: white"></i> Empezar</button></a>
         </div>
         <div class="card-img-wrapper">
 

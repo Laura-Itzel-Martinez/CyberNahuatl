@@ -11,9 +11,10 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="{{asset('css/navbarSistema.css') }}" rel="stylesheet">
+    <link href="{{asset('css/cursos.css') }}" rel="stylesheet">
     <link href="{{asset('librerias/fontawesome/css/all.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="librerias/fontawesome/css/all.css">
-
+    
 
 
   </head>
@@ -27,19 +28,19 @@
         </div>
         <ul class="sidebar-nav mt-4" >
           <li class="">
-            <a href="{{ route('home')}}"></i>Caracteristicas del Nahuatl.</a>
+            <a href="{{ route('morfologica')}}"></i> Morfológica o aglutinante</a>
           </li>
           <li>
-            <a href="{{ route('cursos')}}"></i>Absolutivos.</a>
+            <a href="{{ route('honorifico')}}"></i>Honorifico</a>
           </li>
           <li>
-            <a href="{{ route('diccionario')}}">Plurales Simples.</a>
+            <a href="{{ route('metaforica')}}">Metaforica</a>
           </li>
           <li>
-            <a href="{{ route('perfil')}}"></i>Marcas del sujeto.</a>
+            <a href="{{ route('omnipredicativa')}}"></i> Omnipredicativa</a>
           </li>
           <li>
-            <a href="{{ route('profesores')}}"></i>Reverenciales (Afecto).</a>
+            <a href="{{ route('absolutivos')}}"></i>Absolutivos (ABS)</a>
           </li>
           <li>
             <a href="{{ route('profesores')}}"></i>Diminutivos (Tamaño).<a>

@@ -5,11 +5,21 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 class Cursos extends Controller{
-
-    public function marcasSujetos(){
-        return view('cursos/marcasSujetos');
+    public function morfologica(){
+        return view('cursos/morfologica');
     }
-
+    public function honorifico(){
+        return view('cursos/honorifico');
+    }
+    public function metaforica(){
+        return view('cursos/metaforica');
+    }
+    public function  omnipredicativa(){
+        return view('cursos/omnipredicativa');
+    }
+    public function absolutivos(){
+        return view('cursos/absolutivos');
+    }
     public function reverenciales(){
         return view('cursos/reverenciales');
     }
