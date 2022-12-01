@@ -31,10 +31,11 @@ class Cursos extends Controller{
     public function posesivos(){
         return view('cursos/posesivos');
     }
-
-    public function absolutivos(){
-        return view('cursos/absolutivos');
+    public function marcasSujetos(){
+        return view('cursos/marcasSujetos');
     }
+
+   
     public function pluralesSimples(){
         return view('cursos/pluralesSimples');
     }

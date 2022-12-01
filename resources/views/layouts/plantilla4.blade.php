@@ -28,19 +28,19 @@
         </div>
         <ul class="sidebar-nav" >
           <li class="">
-            <a href="{{ route('morfologica')}}"></i> Morfológica o aglutinante</a>
+            <a href="{{ route('morfologica')}}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Morfológica</a>
           </li>
           <li>
-            <a href="{{ route('honorifico')}}"></i>Honorifico</a>
+            <a href="{{ route('honorifico')}}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Honorifico</a>
           </li>
           <li>
-            <a href="{{ route('metaforica')}}">Metaforica</a>
+            <a href="{{ route('metaforica')}}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Metaforica</a>
           </li>
           <li>
-            <a href="{{ route('omnipredicativa')}}"></i> Omnipredicativa</a>
+            <a href="{{ route('omnipredicativa')}}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Omnipredicativa</a>
           </li>
           <li>
-            <a href="{{ route('absolutivos')}}"></i>Absolutivos (ABS)</a>
+            <a href="{{ route('absolutivos')}}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Absolutivos (ABS)</a>
           </li>
           <li>
             <a href="{{ route('pluralesSimples')}}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Plurales Simples.<a>

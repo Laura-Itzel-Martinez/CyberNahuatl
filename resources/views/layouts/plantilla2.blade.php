@@ -90,6 +90,7 @@
                     </a>
 
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      
                         <a class="dropdown-item" style="color: black">Correo: {{ Auth::user()->email}}</a>
 
                       <a class="dropdown-item" href="{{url('/logout')}}" style="color: black">Cerrar sesión</a>
