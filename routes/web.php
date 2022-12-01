@@ -39,5 +39,7 @@ Route::get('/cursos/marcasSujetos', [App\Http\Controllers\Cursos::class, 'marcas
 Route::get('/cursos/reverenciales', [App\Http\Controllers\Cursos::class, 'reverenciales'])->name('reverenciales');
 Route::get('/cursos/diminutivos', [App\Http\Controllers\Cursos::class, 'diminutivos'])->name('diminutivos');
 Route::get('/cursos/posesivos', [App\Http\Controllers\Cursos::class, 'posesivos'])->name('posesivos');
+Route::get('/cursos/absolutivos', [App\Http\Controllers\Cursos::class, 'absolutivos'])->name('absolutivos');
+Route::get('/cursos/pluralesSimples', [App\Http\Controllers\Cursos::class, 'pluralesSimples'])->name('pluralesSimples');
 
 

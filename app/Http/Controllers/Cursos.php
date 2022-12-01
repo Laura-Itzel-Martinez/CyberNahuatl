@@ -22,6 +22,13 @@ class Cursos extends Controller{
         return view('cursos/posesivos');
     }
 
+    public function absolutivos(){
+        return view('cursos/absolutivos');
+    }
+    public function pluralesSimples(){
+        return view('cursos/pluralesSimples');
+    }
+
 
 
 }

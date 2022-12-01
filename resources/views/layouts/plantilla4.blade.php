@@ -25,38 +25,51 @@
         <div class="sidebar-brand">
           <h2>Cursos en Nahualt</h2>
         </div>
-        <ul class="sidebar-nav mt-4" >
+        <ul class="sidebar-nav" >
           <li class="">
-            <a href="{{ route('home')}}"></i>Caracteristicas del Nahuatl.</a>
+            <a href="{{ route('home')}}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Morfológica.</a>
           </li>
           <li>
-            <a href="{{ route('cursos')}}"></i>Absolutivos.</a>
+            <a href="{{ route('cursos')}}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Honorifico.</a>
           </li>
           <li>
-            <a href="{{ route('diccionario')}}">Plurales Simples.</a>
+            <a href="{{ route('diccionario')}}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Metafórica.</a>
           </li>
           <li>
-            <a href="{{ route('perfil')}}"></i>Marcas del sujeto.</a>
+            <a href="{{ route('perfil')}}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Omnipredicativa.</a>
           </li>
           <li>
-            <a href="{{ route('profesores')}}"></i>Reverenciales (Afecto).</a>
+            <a href="{{ route('absolutivos')}}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Absolutivos.</a>
           </li>
           <li>
-            <a href="{{ route('profesores')}}"></i>Diminutivos (Tamaño).<a>
+            <a href="{{ route('pluralesSimples')}}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Plurales Simples.<a>
           </li>
           <li>
-            <a href="{{ route('profesores')}}"></i>Posesivos.<a>
+            <a href="{{ route('marcasSujetos')}}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Marcas de sujeto.<a>
+          </li>
+          <li>
+            <a href="{{ route('diminutivos')}}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Diminutivos.<a>
+          </li>
+          <li>
+            <a href="{{ route('reverenciales')}}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Reverenciales.<a>
+          </li>
+          <li>
+            <a href="{{ route('posesivos')}}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Posesivos.<a>
+          </li>
+
+          <li>
+            <a href="{{ route('cursos')}}"><i class="fa fa-times" style="color:crimson" aria-hidden="true"></i>Salir<a>
           </li>
         </ul>
       </aside>
 
       <section id="content-wrapper">
-          <div class="row">
-            <div class="col-lg-12">
-              @yield('content')
-            </div>
+        <div class="row">
+          <div class="col-lg-12">
+            @yield('content')
           </div>
-      </section>
+        </div>
+    </section>
 
 
     </div>

@@ -130,6 +130,15 @@ main{
   .deco-7{
     background-color: #DDc9A3 ;
   }
+  .deco-8{
+    background-color: #BC955C ;
+  }
+  .deco-9{
+    background-color: #BC955C ;
+  }
+  .deco-10{
+    background-color: #DDc9A3  ;
+  }
   @media screen and (max-width: 1200px){
     main{
       flex-flow: column;
