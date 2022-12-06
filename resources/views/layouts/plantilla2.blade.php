@@ -41,24 +41,32 @@
         <div class="sidebar-brand">
           <h2>CyberNahualt</h2>
         </div>
-        <ul class="sidebar-nav" ><br>
-
+        <ul class="sidebar-nav" >
+          <li>
+            <a href="{{ route('home')}}" id="op"><i aria-hidden="true"><img src="{{asset('img/alcaldia_6.png') }}" id="img_alcaldia" alt="" loading="lazy"></i></a>
+          </li>
+          <br>
           <li>
             <a href="{{ route('alfabeto')}}" id="op"><i class="fa fa-font" aria-hidden="true"></i>Alfabeto</a>
-          </li><br>
+          </li>
+          <br>
           <li>
             <a href="{{ route('numeracion')}}" id="op"><i class="fa fa-list-ol" aria-hidden="true"></i>Numeraciòn</a>
-          </li><br>
+          </li>
+          <br>
           <li>
             <a href="{{ route('cuerpo')}}" id="op"><i class="fa fa-universal-access" aria-hidden="true"></i>Cuerpo</a>
-          </li><br>
+          </li>
+          <br>
           <li>
             <a href="{{ route('animales')}}" id="op"><i class="fa fa-bug" aria-hidden="true"></i>Animales</a>
 
-          </li><br>
+          </li>
+          <br>
           <li>
             <a href="{{ route('colores')}}" id="op"><i class="fa fa-th-large" aria-hidden="true"></i>Colores</a>
-          </li><br>
+          </li>
+          <br>
           <li>
             <a href="{{ route('meses')}}" id="op"><i class="fa fa-calendar-minus" aria-hidden="true"></i>Meses</a>
           </li>

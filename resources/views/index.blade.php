@@ -1,3 +1,4 @@
+
 @extends('layouts.plantilla')
 
 @section('content')
@@ -183,8 +184,43 @@
     
   
 </div>
-<br><br><br>
-
+<br><br>
+  <div class="service-container">
+    <div class="singleservice">  
+      <img class="serviceicon" src="http://www.freeiconspng.com/uploads/book-stack-icon--icon-search-engine-16.png">
+      <h2 class="servicetitle">
+      ¿Para que me sirve aprendernahuatl.?
+      </h2>
+      <br>
+      <h5>En el náhuatl, en la lengua y en la cosmovisión, el ser humano no es el centro, sino que es parte de un todo,
+          como son los animales, las plantas, todos los seres vivos.
+          Entonces cuando alguien aprende náhuatl, encuentra una oportunidad para resignificar su mundo y su propia persona.</h5>
+    </div>
+    <div class="singleserviceb">  
+      <img class="serviceicon" src="https://www.freeiconspng.com/uploads/check-mark-in-black-icon-8.png">
+      <h2 class="servicetitle">
+        Ventajas  de aprender nahuatl
+      </h2>
+      <br>
+        <h5>Hoy, es la lengua indígena mexicana con mayor número de hablantes (alrededor de millón y medio).
+          Además, es y ha sido un idioma valioso por su importancia histórica 
+          (de una civilización desarrollada lejos del viejo mundo), lingüística (es aglutinante no indoeuropeo), 
+          literaria y hasta nacionalista.
+        </h5>
+    </div>
+    <div class="singleservice">  
+      <img class="serviceicon" src="http://www.iconninja.com/files/642/213/85/idea-and-creativity-symbol-of-a-lightbulb-icon.svg">
+      <h2 class="servicetitle">
+      ¿Sabias que? 
+      </h2>
+      <br>  
+      <h5>Milpa Alta es una alcaldía de la Ciudad de México que conserva con orgullo su identidad campesina e indígena.
+        Conoce este bastión del náhuatl en la capital mexicana.
+        En el náhuatl, lengua originaria que, aunque se ha visto mermada por siglos de promoción del 
+        habla del castellano, aún se encuentra viva en  esta zona.</h5>
+    </div>
+        
+  
         
     
   
