@@ -34,8 +34,8 @@ class HomeController extends Controller
     public function perfil(){
         return view('perfil');
     }
-    public function profesores(){
-        return view('profesores');
+    public function colaboradores(){
+        return view('colaboradores');
     }
     public function alfabeto(){
         return view('alfabeto');

@@ -8,25 +8,27 @@
     <link rel="shortcut icon" href="{{ asset('img/logoCyber.png') }}" type="image/x-icon">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="{{asset('css/navbarSistema.css') }}" rel="stylesheet">
-    <link href="{{asset('librerias/fontawesome/css/all.css') }}" rel="stylesheet">
+
     <link rel="stylesheet" href="librerias/fontawesome/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
+
     <link href="{{asset('css/curso.css') }}" rel="stylesheet">
     <link href="{{asset('css/carrucelAlfabeto.css') }}" rel="stylesheet">
     <link href="{{asset('css/perfil.css') }}" rel="stylesheet">
-    <link href="{{asset('css/profesores.css') }}" rel="stylesheet">
+    <link href="{{asset('css/colaboradores.css') }}" rel="stylesheet">
     <link href="{{asset('css/numeracion.css') }}" rel="stylesheet">
     <link href="{{asset('css/cuerpo.css') }}" rel="stylesheet">
     <link href="{{asset('css/alfabeto.css') }}" rel="stylesheet">
     <link href="{{asset('css/animales.css') }}" rel="stylesheet">
     <link href="{{asset('css/colores.css') }}" rel="stylesheet">
     <link href="{{asset('css/meses.css') }}" rel="stylesheet">
+    <link href="{{asset('css/navbarSistema.css') }}" rel="stylesheet">
+    <link href="{{asset('librerias/fontawesome/css/all.css') }}" rel="stylesheet">
+
     <script src="{{ asset('js/ruleta_js/Winwheel.min.js') }}"></script>
     <script src="{{ asset('js/ruleta_js/TweenMax.min.js') }}"></script>
     <script src="{{ asset('js/ruleta_js/jQuery-2.1.4.min.js') }}"></script>
@@ -86,7 +88,7 @@
                 <div class="col-sm-1"></div>
                 <a href="{{ route('diccionario')}}"><i class="fa fa-search"></i> Diccionario</a>
                 <div class="col-sm-1"></div>
-                <a href="{{ route('profesores')}}"><i class="fa fa-users" aria-hidden="true"></i> Colaboradores</a>
+                <a href="{{ route('colaboradores')}}"><i class="fa fa-users" aria-hidden="true"></i> Colaboradores</a>
 
 
 
@@ -98,7 +100,7 @@
                     </a>
 
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      
+
                         <a class="dropdown-item" style="color: black">Correo: {{ Auth::user()->email}}</a>
 
                       <a class="dropdown-item" href="{{url('/logout')}}" style="color: black">Cerrar sesión</a>
@@ -125,7 +127,7 @@
   <!--/.container-->
 
 
-  
+
 
 
   <!--/.container-->
