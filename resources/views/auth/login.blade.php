@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="{{ asset('css/login.css') }}">
 @extends('layouts.plantilla')
-  
+@section('tituloPagina', 'Login')
+
 @section('content')
         <div class="fondo_login">
         <div class="wrapper fadeInDown" id="Login">
@@ -52,7 +53,7 @@
                             </div>
                         </div>
 
-                        
+
 
                         <div class="form-group row mb-0">
                             <div class="col ml-4">
@@ -75,8 +76,8 @@
                 <div id="formFooter" >
                     <a class="nav-link" href="{{ url('/') }}"><span class=" btn btn-block" style="background-color: #cd0c36; color:white">   Cancelar</span></a>
                 </div>
-                
+
             </div>
         </div>
-  
+
 @endsection

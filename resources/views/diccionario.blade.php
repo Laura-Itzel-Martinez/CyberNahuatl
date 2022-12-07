@@ -1,7 +1,8 @@
 <link href="{{asset('css/diccionario.css') }}" rel="stylesheet">
 
-  
+
 @extends('layouts.plantilla2')
+@section('tituloPagina', 'Diccionario')
 
 @section('content')
 <br>
@@ -16,20 +17,20 @@
         <div class="container">
             <div class="header_wrap">
             <div class="num_rows">
-            
-                    <div class="form-group"> 	
+
+                    <div class="form-group">
                         <select class  ="form-control" name="state" id="maxRows" >
-                            
-                            
-                            
-                            
+
+
+
+
                             <option value="30">30</option>
                             <option value="50">50</option>
                             <option value="70">70</option>
                             <option value="100">100</option>
                 <option value="5000">Mostrar todas las palabras</option>
                             </select>
-                            
+
                         </div>
             </div>
         <div class="tb_search">
@@ -38,12 +39,12 @@
         </div>
     <table class="table table-striped table-class" id="table-id">
 
-    
+
         <thead>
             <tr>
                 <th>Palabra Nahuatl</th>
                 <th>Palabra en Español</th>
-                
+
             </tr>
         </thead>
         <tbody>
@@ -51,7 +52,7 @@
                 <tr>
                     <td>{{$diccionarios->palabra_nahuatl}}</td>
                     <td>{{$diccionarios->palabra_espanol}}</td>
-                    
+
                 </tr>
             @endforeach
 
@@ -66,11 +67,11 @@
                         </ul>
                     </nav>
                 </div>
-           
-            
+
+
 
         </div> <!-- 		End of Container -->
-    
+
 
 
 

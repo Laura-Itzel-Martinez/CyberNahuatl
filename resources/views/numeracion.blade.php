@@ -1,8 +1,9 @@
 @extends('layouts.plantilla2')
+@section('tituloPagina', 'Númeración')
 
 @section('content')
 
-  
+
   <body class="body_1">
     <form id="cont">
        <!-- Modal numero 1-->
@@ -19,7 +20,7 @@
               <table class="table table-striped" style="text-align: center">
                 <thead>
                   <tr>
-                    
+
                     <th scope="col">Nahuatl</th>
                     <th scope="col">Español</th>
                     <th scope="col">Pronunciación</th>
@@ -27,7 +28,7 @@
                 </thead>
                 <tbody>
                   <tr>
-                   
+
                     <td>sentetl, se </td>
                     <td>Uno</td>
                     <td>
@@ -41,7 +42,7 @@
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
-              
+
             </div>
           </div>
         </div>
@@ -60,7 +61,7 @@
               <table class="table table-striped" style="text-align: center">
                 <thead>
                   <tr>
-                    
+
                     <th scope="col">Nahuatl</th>
                     <th scope="col">Español</th>
                     <th scope="col">Pronunciación</th>
@@ -68,7 +69,7 @@
                 </thead>
                 <tbody>
                   <tr>
-                    
+
                     <td>summe</td>
                     <td>Dos</td>
                     <td>
@@ -83,7 +84,7 @@
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
-              
+
             </div>
           </div>
         </div>
@@ -102,7 +103,7 @@
               <table class="table table-striped" style="text-align: center">
                 <thead>
                   <tr>
-                    
+
                     <th scope="col">Nahuatl</th>
                     <th scope="col">Español</th>
                     <th scope="col">Pronunciación</th>
@@ -110,7 +111,7 @@
                 </thead>
                 <tbody>
                   <tr>
-                    
+
                     <td>yeye</td>
                     <td>Tres</td>
                     <td>
@@ -143,7 +144,7 @@
               <table class="table table-striped" style="text-align: center">
                 <thead>
                   <tr>
-                    
+
                     <th scope="col">Nahuatl</th>
                     <th scope="col">Español</th>
                     <th scope="col">Pronunciación</th>
@@ -151,7 +152,7 @@
                 </thead>
                 <tbody>
                   <tr>
-                    
+
                     <td>nawe</td>
                     <td>Cuatro</td>
                     <td>
@@ -166,7 +167,7 @@
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
-              
+
             </div>
           </div>
         </div>
@@ -185,7 +186,7 @@
               <table class="table table-striped" style="text-align: center">
                 <thead>
                   <tr>
-                    
+
                     <th scope="col">Nahuatl</th>
                     <th scope="col">Español</th>
                     <th scope="col">Pronunciación</th>
@@ -193,7 +194,7 @@
                 </thead>
                 <tbody>
                   <tr>
-                    
+
                     <td>makwille</td>
                     <td>Cinco</td>
                     <td>
@@ -226,7 +227,7 @@
               <table class="table table-striped" style="text-align: center">
                 <thead>
                   <tr>
-                    
+
                     <th scope="col">Nahuatl</th>
                     <th scope="col">Español</th>
                     <th scope="col">Pronunciación</th>
@@ -234,7 +235,7 @@
                 </thead>
                 <tbody>
                   <tr>
-                    
+
                     <td>Chikwase</td>
                     <td>Seis</td>
                     <td>
@@ -249,7 +250,7 @@
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
-              
+
             </div>
           </div>
         </div>
@@ -268,7 +269,7 @@
               <table class="table table-striped" style="text-align: center">
                 <thead>
                   <tr>
-                    
+
                     <th scope="col">Nahuatl</th>
                     <th scope="col">Español</th>
                     <th scope="col">Pronunciación</th>
@@ -276,7 +277,7 @@
                 </thead>
                 <tbody>
                   <tr>
-                    
+
                     <td>Chik umme</td>
                     <td>Siete</td>
                     <td>
@@ -291,7 +292,7 @@
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
-              
+
             </div>
           </div>
         </div>
@@ -310,7 +311,7 @@
               <table class="table table-striped" style="text-align: center">
                 <thead>
                   <tr>
-                    
+
                     <th scope="col">Nahuatl</th>
                     <th scope="col">Español</th>
                     <th scope="col">Pronunciación</th>
@@ -318,7 +319,7 @@
                 </thead>
                 <tbody>
                   <tr>
-                    
+
                     <td>Chik weye</td>
                     <td>Ocho</td>
                     <td>
@@ -333,7 +334,7 @@
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
-              
+
             </div>
           </div>
         </div>
@@ -352,7 +353,7 @@
               <table class="table table-striped" style="text-align: center">
                 <thead>
                   <tr>
-                    
+
                     <th scope="col">Nahuatl</th>
                     <th scope="col">Español</th>
                     <th scope="col">Pronunciación</th>
@@ -360,7 +361,7 @@
                 </thead>
                 <tbody>
                   <tr>
-                    
+
                     <td>Chik nawe</td>
                     <td>Nueve</td>
                     <td>
@@ -375,7 +376,7 @@
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
-              
+
             </div>
           </div>
         </div>
@@ -394,7 +395,7 @@
               <table class="table table-striped" style="text-align: center">
                 <thead>
                   <tr>
-                    
+
                     <th scope="col">Nahuatl</th>
                     <th scope="col">Español</th>
                     <th scope="col">Pronunciación</th>
@@ -402,7 +403,7 @@
                 </thead>
                 <tbody>
                   <tr>
-                    
+
                     <td>mahtlaktle</td>
                     <td>Diez</td>
                     <td>
@@ -417,7 +418,7 @@
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
-              
+
             </div>
           </div>
         </div>
@@ -436,7 +437,7 @@
               <table class="table table-striped" style="text-align: center">
                 <thead>
                   <tr>
-                    
+
                     <th scope="col">Nahuatl</th>
                     <th scope="col">Español</th>
                     <th scope="col">Pronunciación</th>
@@ -444,7 +445,7 @@
                 </thead>
                 <tbody>
                   <tr>
-                    
+
                     <td>mahtlaktle wan se</td>
                     <td>Once</td>
                     <td>
@@ -459,7 +460,7 @@
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
-           
+
             </div>
           </div>
         </div>
@@ -478,7 +479,7 @@
               <table class="table table-striped" style="text-align: center">
                 <thead>
                   <tr>
-                    
+
                     <th scope="col">Nahuatl</th>
                     <th scope="col">Español</th>
                     <th scope="col">Pronunciación</th>
@@ -486,7 +487,7 @@
                 </thead>
                 <tbody>
                   <tr>
-                    
+
                     <td>mahtlaktle wan umme</td>
                     <td>Doce</td>
                     <td>
@@ -501,7 +502,7 @@
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
-              
+
             </div>
           </div>
         </div>
@@ -520,7 +521,7 @@
               <table class="table table-striped" style="text-align: center">
                 <thead>
                   <tr>
-                    
+
                     <th scope="col">Nahuatl</th>
                     <th scope="col">Español</th>
                     <th scope="col">Pronunciación</th>
@@ -528,7 +529,7 @@
                 </thead>
                 <tbody>
                   <tr>
-                    
+
                     <td>mahtlaktle wan yeye</td>
                     <td>Trece</td>
                     <td>
@@ -543,7 +544,7 @@
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
-              
+
             </div>
           </div>
         </div>
@@ -562,7 +563,7 @@
               <table class="table table-striped" style="text-align: center">
                 <thead>
                   <tr>
-                    
+
                     <th scope="col">Nahuatl</th>
                     <th scope="col">Español</th>
                     <th scope="col">Pronunciación</th>
@@ -570,7 +571,7 @@
                 </thead>
                 <tbody>
                   <tr>
-                    
+
                     <td>mahtlaktle wan nawe</td>
                     <td>Catorce</td>
                     <td>
@@ -585,7 +586,7 @@
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
-              
+
             </div>
           </div>
         </div>
@@ -604,7 +605,7 @@
               <table class="table table-striped" style="text-align: center">
                 <thead>
                   <tr>
-                    
+
                     <th scope="col">Nahuatl</th>
                     <th scope="col">Español</th>
                     <th scope="col">Pronunciación</th>
@@ -612,7 +613,7 @@
                 </thead>
                 <tbody>
                   <tr>
-                    
+
                     <td>kaxtulle</td>
                     <td>Quince</td>
                     <td>
@@ -627,7 +628,7 @@
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
-              
+
             </div>
           </div>
         </div>
@@ -646,7 +647,7 @@
               <table class="table table-striped" style="text-align: center">
                 <thead>
                   <tr>
-                    
+
                     <th scope="col">Nahuatl</th>
                     <th scope="col">Español</th>
                     <th scope="col">Pronunciación</th>
@@ -654,7 +655,7 @@
                 </thead>
                 <tbody>
                   <tr>
-                    
+
                     <td>kaxtulle wan se </td>
                     <td>Dieciseis</td>
                     <td>
@@ -669,7 +670,7 @@
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
-              
+
             </div>
           </div>
         </div>
@@ -688,7 +689,7 @@
               <table class="table table-striped" style="text-align: center">
                 <thead>
                   <tr>
-                    
+
                     <th scope="col">Nahuatl</th>
                     <th scope="col">Español</th>
                     <th scope="col">Pronunciación</th>
@@ -696,7 +697,7 @@
                 </thead>
                 <tbody>
                   <tr>
-                    
+
                     <td>kaxtulle wan umme</td>
                     <td>Diecisiete</td>
                     <td>
@@ -711,7 +712,7 @@
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
-              
+
             </div>
           </div>
         </div>
@@ -730,7 +731,7 @@
               <table class="table table-striped" style="text-align: center">
                 <thead>
                   <tr>
-                    
+
                     <th scope="col">Nahuatl</th>
                     <th scope="col">Español</th>
                     <th scope="col">Pronunciación</th>
@@ -738,7 +739,7 @@
                 </thead>
                 <tbody>
                   <tr>
-                    
+
                     <td>kaxtulle wan yeye</td>
                     <td>Dieciocho</td>
                     <td>
@@ -753,7 +754,7 @@
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
-              
+
             </div>
           </div>
         </div>
@@ -772,7 +773,7 @@
               <table class="table table-striped" style="text-align: center">
                 <thead>
                   <tr>
-                    
+
                     <th scope="col">Nahuatl</th>
                     <th scope="col">Español</th>
                     <th scope="col">Pronunciación</th>
@@ -780,7 +781,7 @@
                 </thead>
                 <tbody>
                   <tr>
-                    
+
                     <td>kaxtulle wan nawe</td>
                     <td>Diecinueve</td>
                     <td>
@@ -795,7 +796,7 @@
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
-              
+
             </div>
           </div>
         </div>
@@ -814,7 +815,7 @@
               <table class="table table-striped" style="text-align: center">
                 <thead>
                   <tr>
-                    
+
                     <th scope="col">Nahuatl</th>
                     <th scope="col">Español</th>
                     <th scope="col">Pronunciación</th>
@@ -822,7 +823,7 @@
                 </thead>
                 <tbody>
                   <tr>
-                    
+
                     <td>se powalle </td>
                     <td>Veinte</td>
                     <td>
@@ -837,7 +838,7 @@
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
-              
+
             </div>
           </div>
         </div>
@@ -846,30 +847,30 @@
       <input type="radio" id="step-2" name="step" />
       <input type="radio" id="step-3" name="step" />
       <input type="radio" id="step-4" name="step" />
-      
+
       <div id="bubble-1" class="bubble">
         <div>En esta sección aprenderas los numeros en nahuatl</div>
         <label for="step-2">!Has click aqui!</label>
       </div>
-      
+
       <div id="bubble-2" class="bubble right">
         <div>Empecemos, has click sobre un número para saber su información</div>
         <label for="step-3">Finalizar</label>
       </div>
-      
+
       <div id="bubble-3" class="bubble">
         <div>!Muy bien!, has aprendido los numeros basicos en la lengua nahuatl!</div>
         <p></p>
         <label for="step-4">Volver a mostrar numeros</label>
       </div>
-      
+
       <div id="bubble-4" class="bubble right">
         <div>Ok, aqui tienes nuevamente los numeros en nahuatl, recuerda que tienes que dar click sobre un numero para saber su información</div>
         <input type="reset" value="Finalizar" id="reset" />
       </div>
-    
+
       <div id="magician">
-        
+
           <div class="box small-12 large-12 columns" style="text-align: center">
               <div class="box-model jagger">
                 <div class="inner">
@@ -881,17 +882,17 @@
                 </div>
               </div>
             </div>
-        
-        
+
+
       </div>
-    
+
       <div class="cards" id="cards-1" style="width:68%">
-        
+
         <div class="row">
           <div id="card-1" class="card red" data-toggle="modal" data-target="#exampleModal">
               <h2>1</h2>
           </div>
-          
+
           <div id="card-2" class="card" data-toggle="modal" data-target="#exampleModal2">
               <h2>2</h2>
           </div>
@@ -951,15 +952,15 @@
                   <h2>20</h2>
               </div>
           </div>
-          
+
         </div>
-        
+
       </div>
-      
-      
+
+
     </form>
   </body>
-    
-  
+
+
 
 @endsection

@@ -1,5 +1,6 @@
 
 @extends('layouts.plantilla')
+@section('tituloPagina', 'CyberNahualt')
 
 @section('content')
 <p></p>

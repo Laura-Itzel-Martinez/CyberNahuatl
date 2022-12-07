@@ -1,4 +1,5 @@
 @extends('layouts.plantilla4')
+@section('tituloPagina', ' Curso Metaforica')
 
 @section('content')
 <div class="container">
@@ -11,24 +12,24 @@
                 <a class="btn" style="float: right; color:#10312B"  href="{{ route('honorifico')}}"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i> Atras</a>
 
             </h2>
-        </div> 
+        </div>
     </div>
 </div>
 <br>
 <div class="container">
     <div class="row">
-        
+
         <div class="col-sm-6">
-            
+
             <h4><u>Definicion: </u></h4>
             <br>
-            
-            
-            <h5>La metáfora es una 
-                modificación semántica, es 
-                decir un cambio en el 
+
+
+            <h5>La metáfora es una
+                modificación semántica, es
+                decir un cambio en el
                 significado</h5>
-            
+
         </div>
         <div class="col-sm-3"></div>
     </div>
@@ -36,9 +37,9 @@
 <div class="container" style="margin-top: 50px">
     <div class="row">
         <div class="col-sm-6">
-            
+
                 <h4><u>Ejemplos:</u></h4>
-                
+
                 <h5><strong style="color: black">- </strong> <strong style="color: green">Nekw</strong><strong style="color: red">tle</strong>
                     <strong style="color: black">= Es pulque.</strong>
                 </h5>
@@ -76,30 +77,30 @@
                     <strong style="color: green">Nan</strong><strong style="color: black"> = raiz nominal de</strong>
                     <strong style="color: green">nan</strong><strong style="color: red">tle</strong>
                 </h5>
-                
+
             </div>
         <div class="col-sm-6">
-            
-                    
+
+
             <h5><strong style="color: black">- </strong> <strong style="color: green">Tlao</strong><strong style="color: red">lle</strong>
                 <strong style="color: black">= maiz.</strong>
             </h5>
             <br>
             <h5>
                 <strong style="color: green">Tonacayo</strong><strong style="color: black"> = nuestra carne</strong>
-                
+
             </h5>
             <br>
             <h5>
                 <strong style="color: black">Naka = raíz nominal del náhuatl.</strong>
-                
+
             </h5>
             <br>
             <h5>
                 <strong style="color: black">Yo = derivador de abundancia.</strong>
-                
+
             </h5>
-            
+
     </div>
 </div>
 @endsection

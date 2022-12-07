@@ -1,4 +1,5 @@
 @extends('layouts.plantilla2')
+@section('tituloPagina', 'Animales')
 
 @section('content')
 <br><br>

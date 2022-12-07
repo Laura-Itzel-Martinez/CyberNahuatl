@@ -1,4 +1,5 @@
 @extends('layouts.plantilla2')
+@section('tituloPagina', 'Meses')
 
 @section('content')
 <br>

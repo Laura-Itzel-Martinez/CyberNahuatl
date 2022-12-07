@@ -1,4 +1,5 @@
 @extends('layouts.plantilla4')
+@section('tituloPagina', ' Curso Posesivos.')
 
 @section('content')
 

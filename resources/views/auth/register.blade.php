@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="{{ asset('css/login.css') }}">
 @extends('layouts.plantilla')
+@section('tituloPagina', 'Registro Usuario')
 
 @section('content')
 <div class="fondo_registro">

@@ -1,4 +1,6 @@
 @extends('layouts.plantilla2')
+@section('tituloPagina', 'Alfabeto Nahuatl')
+
 
 @section('content')
 <br><br>
