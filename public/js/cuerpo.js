@@ -170,7 +170,7 @@ $(document).ready(function () {
       
          <tr style="color:#32383e;text-align:center">
                <td id="td_cuerpo">Mano</td>
-               <td id="td_cuerpo"></td>
+               <td id="td_cuerpo">Maitl</td>
                
          </tr>
       
@@ -187,7 +187,7 @@ $(document).ready(function () {
       
          <tr style="color:#32383e;text-align:center">
                <td id="td_cuerpo">Rodilla</td>
-               <td id="td_cuerpo"></td>
+               <td id="td_cuerpo">Tlankwate</td>
                
          </tr>
       
