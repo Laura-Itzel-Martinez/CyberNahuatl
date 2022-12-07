@@ -8,7 +8,7 @@
     <div class="col">
       <div class="card">
         <div class="card">
-          <span style="font-family: 'Alata', sans-serif"><strong><h1 class="text-center" style="color:rgb(28, 52, 45) ">En CyberNahualt encontraras cursos para toda la famila acerca 
+          <span style="font-family: 'Alata', sans-serif"><strong><h1 class="text-center" style="color:rgb(28, 52, 45) ">En CyberNahualt encontraras cursos para toda la famila acerca
             del idioma Nahualt
           </h1></strong></span>
         </div>
@@ -19,7 +19,7 @@
 <!-- Contenedor de carrusel--->
 <div class="container" style="margin-top: 80px">
   <div class="row">
-    
+
     <div class="col-sm-8"><div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" >
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -85,10 +85,10 @@
 </div>
 <!-- Contenedor de cards--->
 <div class="container-fluid:100%" style="margin-top: 20px">
-  
+
   <section id="services">
     <div class="container-fluid">
-        
+
         <div class="row space-rows" id="animated-cards">
             <div class="col-sm-3">
                 <div class="card cards-shadown cards-hover">
@@ -107,7 +107,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-sm-3">
                 <div class="card cards-shadown cards-hover">
                     <div class="card-header"><span class="space"><i class="fab fa-windows service-icon" id="service-icon-2"></i></span>
@@ -124,7 +124,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-sm-3">
                 <div class="card cards-shadown cards-hover">
                     <div class="card-header cards-header-hover"><span class="space"><i class="fab fa-java service-icon" id="service-icon-3"></i></span>
@@ -141,7 +141,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-sm-3">
               <div class="card cards-shadown cards-hover">
                   <div class="card-header cards-header-hover"><span class="space"><i class="fab fa-java service-icon" id="service-icon-3"></i></span>
@@ -167,12 +167,12 @@
 <!-- Contenedor de 3 img--->
 <div class="container">
   <div class="row">
-   
+
     <div class="col-sm-8"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/rJ6jqZXPnAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
     <p></p>
     <div class="col-sm-3">
       <div class="row">
-        <div class="col"><img src="{{asset('img/señores2.jpg')}}" alt="" style="width:320px ;height:225px"></div>
+        <div class="col"><img src="{{asset('img/prueba1.jpg')}}" alt="" style="width:320px ;height:225px"></div>
       </div>
         <p></p>
        <div class="row">
@@ -180,12 +180,12 @@
        </div>
       </div>
     </div>
-    
-  
+
+
 </div>
 <br><br><br>
 
-        
-    
-  
+
+
+
 @endsection
