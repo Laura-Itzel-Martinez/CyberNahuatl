@@ -41,13 +41,13 @@
 
       <aside id="sidebar-wrapper" >
         <div class="sidebar-brand">
-          <h2>CyberNahualt</h2>
+          <h2>CyberNahualt</h2><br>
+          <h2> <a href="{{ route('home')}}" id="op"><i aria-hidden="true"><img src="{{asset('img/alcaldia_6.png') }}" id="img_alcaldia" alt="" loading="lazy"
+            style="text-align: center"></i></a></h2>
         </div>
-        <ul class="sidebar-nav" >
-          <li>
-            <a href="{{ route('home')}}" id="op"><i aria-hidden="true"><img src="{{asset('img/alcaldia_6.png') }}" id="img_alcaldia" alt="" loading="lazy"></i></a>
-          </li>
-          <br>
+
+        <ul class="sidebar-nav mt-4" >
+            <br><br><br><br>
           <li>
             <a href="{{ route('alfabeto')}}" id="op"><i class="fa fa-font" aria-hidden="true"></i>Alfabeto</a>
           </li>

@@ -14,7 +14,7 @@
     <link href="{{asset('css/cursos.css') }}" rel="stylesheet">
     <link href="{{asset('librerias/fontawesome/css/all.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="librerias/fontawesome/css/all.css">
-    
+
 
 
   </head>
@@ -24,7 +24,7 @@
 
       <aside id="sidebar-wrapper" >
         <div class="sidebar-brand">
-          <h2>Cursos en Nahualt</h2>
+          <h2 class="text-center">Cursos en Nahualt</h2>
         </div>
         <ul class="sidebar-nav" >
           <li class="">
