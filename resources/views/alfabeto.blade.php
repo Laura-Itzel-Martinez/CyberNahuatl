@@ -94,28 +94,27 @@
 
         </div>
     </div>
-    <div class="alert"  role="alert" style="margin-top: 34%;  background-color:  #ccc">
-      Haz click en la letra!!!!
+    <div class="alert"  role="alert" style="margin-top: 30%;  background-color:  #ccc">
+      <strong>Haz click en la letra descubre palabras en Nàhualt.!!!!</strong>
     </div>
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModalA" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
+      <div class="modal-dialog modal-xl" >
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras el Nahualt.
-
+            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras en Náhualt de la letra <strong style="color:red">A</strong>
             </h5>
-
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-
             <table class="table">
               <thead>
                 <tr>
+                  <th></th>
+                  <th></th>
                   <th></th>
                   <th></th>
                 </tr>
@@ -134,7 +133,7 @@
                       <div class="text-container">
                         <h3>Atl</h3>
                         <div>
-                          Agua
+                           Agua
                       </div>
                     </div>
                   </td>
@@ -149,13 +148,10 @@
                     <div class="text-container">
                       <h3>Amatl</h3>
                       <div>
-                       Papel
+                        Papel
                     </div>
                   </div></td>
-
-                </tr>
-                <tr>
-                  <td scope="row">
+                  <td>
                     <div class="a-box">
                       <div class="img-container">
                         <div class="img-inner">
@@ -167,7 +163,7 @@
                       <div class="text-container">
                         <h3>Atoyatl</h3>
                         <div>
-                         Lago
+                           Lago
                       </div>
                     </div>
                   </td>
@@ -187,13 +183,12 @@
                       </div>
                     </div>
                   </td>
-                  <td></td>
                 </tr>
               </tbody>
             </table>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-warning btn-lg" data-dismiss="modal">Cerrar</button>
           </div>
         </div>
       </div>
@@ -201,10 +196,10 @@
 
      <!-- Modal -->
      <div class="modal fade" id="exampleModalCH" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
+      <div class="modal-dialog  modal-xl">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras el Nahualt</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras en Náhualt de la letra <strong style="color: red">CH</strong></h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -213,6 +208,8 @@
             <table class="table">
               <thead>
                 <tr>
+                  <th></th>
+                  <th></th>
                   <th></th>
                   <th></th>
                 </tr>
@@ -249,9 +246,7 @@
                        Perro
                     </div>
                   </div></td>
-                </tr>
-                <tr>
-                  <td scope="row">
+                  <td>
                     <div class="a-box">
                       <div class="img-container">
                         <div class="img-inner">
@@ -280,16 +275,14 @@
                         <h3>Chikawak</h3>
                         <div>
                           Fuerte
-                      </div>
                     </div>
                   </td>
-                  <td></td>
                 </tr>
               </tbody>
             </table>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-warning btn-lg" data-dismiss="modal">Cerrar</button>
           </div>
         </div>
       </div>
@@ -297,10 +290,10 @@
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModalE" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
+      <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras el Nahualt</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras en Náhualt con la letra <strong style="color: red">E</strong></h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -309,6 +302,8 @@
             <table class="table">
               <thead>
                 <tr>
+                  <th></th>
+                  <th></th>
                   <th></th>
                   <th></th>
                 </tr>
@@ -325,9 +320,9 @@
                         </div>
                       </div>
                       <div class="text-container">
-                        <h3>Elutl</h3>
+                        <h2>Elutl</h2>
                         <div>
-                          Elote
+                          <h3>Elote</h3>
                       </div>
                     </div>
                   </td>
@@ -340,14 +335,12 @@
                       </div>
                     </div>
                     <div class="text-container">
-                      <h3>Exutl</h3>
+                      <h2>Exutl</h2>
                       <div>
-                       Ejote
+                        <h3> Ejote</h3>
                     </div>
                   </div></td>
-                </tr>
-                <tr>
-                  <td scope="row">
+                  <td>
                     <div class="a-box">
                       <div class="img-container">
                         <div class="img-inner">
@@ -357,9 +350,9 @@
                         </div>
                       </div>
                       <div class="text-container">
-                        <h3>Ewatl</h3>
+                        <h2>Ewatl</h2>
                         <div>
-                         Cascara de frutas
+                          <h3>Cascara de frutas</h3>
                       </div>
                     </div>
                   </td>
@@ -373,19 +366,18 @@
                         </div>
                       </div>
                       <div class="text-container">
-                        <h3>Ehkahtsolle</h3>
+                        <h2>Ehkahtsolle</h2>
                         <div>
-                          Nariz
+                         <h3> Nariz</h3>
                       </div>
                     </div>
                   </td>
-                  <td></td>
                 </tr>
               </tbody>
             </table>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-warning btn-lg" data-dismiss="modal">Cerrar</button>
           </div>
         </div>
       </div>
@@ -393,10 +385,10 @@
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModalH" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
+      <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras el Nahualt</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras en Náhualt con la letra <strong style="color: red">H</strong></h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -405,6 +397,8 @@
             <table class="table">
               <thead>
                 <tr>
+                  <th></th>
+                  <th></th>
                   <th></th>
                   <th></th>
                 </tr>
@@ -441,9 +435,7 @@
                        Medicina
                     </div>
                   </div></td>
-                </tr>
-                <tr>
-                  <td scope="row">
+                  <td >
                     <div class="a-box">
                       <div class="img-container">
                         <div class="img-inner">
@@ -475,13 +467,13 @@
                       </div>
                     </div>
                   </td>
-                  <td></td>
                 </tr>
+                <tr>
               </tbody>
             </table>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-warning btn-lg" data-dismiss="modal">Cerrar</button>
           </div>
         </div>
       </div>
@@ -489,10 +481,10 @@
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModalHW" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
+      <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras el Nahualt</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras en Náhualt con la letra <strong style="color: red">HW</strong></h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -501,6 +493,8 @@
             <table class="table">
               <thead>
                 <tr>
+                  <th></th>
+                  <th></th>
                   <th></th>
                   <th></th>
                 </tr>
@@ -523,7 +517,7 @@
                       </div>
                     </div>
                   </td>
-                  <td> <div class="a-box">
+                  <td><div class="a-box">
                     <div class="img-container">
                       <div class="img-inner">
                         <div class="inner-skew">
@@ -537,9 +531,7 @@
                        Dia
                     </div>
                   </div></td>
-                </tr>
-                <tr>
-                  <td scope="row">
+                  <td >
                     <div class="a-box">
                       <div class="img-container">
                         <div class="img-inner">
@@ -571,13 +563,12 @@
                       </div>
                     </div>
                   </td>
-                  <td></td>
                 </tr>
               </tbody>
             </table>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-warning btn-lg" data-dismiss="modal">Cerrar</button>
           </div>
         </div>
       </div>
@@ -585,10 +576,10 @@
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModalI" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
+      <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras el Nahualt</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras en Náhualt con la letra <strong style="color: red">I</strong></h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -597,6 +588,8 @@
             <table class="table">
               <thead>
                 <tr>
+                  <th></th>
+                  <th></th>
                   <th></th>
                   <th></th>
                 </tr>
@@ -633,9 +626,7 @@
                        Su casa
                     </div>
                   </div></td>
-                </tr>
-                <tr>
-                  <td scope="row">
+                  <td >
                     <div class="a-box">
                       <div class="img-container">
                         <div class="img-inner">
@@ -667,13 +658,12 @@
                       </div>
                     </div>
                   </td>
-                  <td></td>
                 </tr>
               </tbody>
             </table>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-warning btn-lg" data-dismiss="modal">Cerrar</button>
           </div>
         </div>
       </div>
@@ -681,10 +671,10 @@
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModalK" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
+      <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras el Nahualt</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras en Náhualt con la letra <strong style="color: red">K</strong></h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -693,6 +683,8 @@
             <table class="table">
               <thead>
                 <tr>
+                  <th></th>
+                  <th></th>
                   <th></th>
                   <th></th>
                 </tr>
@@ -729,9 +721,7 @@
                        Coyote
                     </div>
                   </div></td>
-                </tr>
-                <tr>
-                  <td scope="row">
+                  <td >
                     <div class="a-box">
                       <div class="img-container">
                         <div class="img-inner">
@@ -763,13 +753,12 @@
                       </div>
                     </div>
                   </td>
-                  <td></td>
                 </tr>
               </tbody>
             </table>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-warning btn-lg" data-dismiss="modal">Cerrar</button>
           </div>
         </div>
       </div>
@@ -777,10 +766,10 @@
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModalKW" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
+      <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras el Nahualt</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras en Náhualt con la letra <strong style="color: red">kW</strong></h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -789,6 +778,8 @@
             <table class="table">
               <thead>
                 <tr>
+                  <th></th>
+                  <th></th>
                   <th></th>
                   <th></th>
                 </tr>
@@ -825,9 +816,7 @@
                        Bosque
                     </div>
                   </div></td>
-                </tr>
-                <tr>
-                  <td scope="row">
+                  <td >
                     <div class="a-box">
                       <div class="img-container">
                         <div class="img-inner">
@@ -859,13 +848,13 @@
                       </div>
                     </div>
                   </td>
-                  <td></td>
+
                 </tr>
               </tbody>
             </table>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-warning btn-lg" data-dismiss="modal">Cerrar</button>
           </div>
         </div>
       </div>
@@ -873,10 +862,10 @@
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModalL" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
+      <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras el Nahualt</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras en Náhualt con la letra <strong style="color: red">L</strong></h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -885,6 +874,8 @@
             <table class="table">
               <thead>
                 <tr>
+                  <th></th>
+                  <th></th>
                   <th></th>
                   <th></th>
                 </tr>
@@ -921,9 +912,7 @@
                        Bosque
                     </div>
                   </div></td>
-                </tr>
-                <tr>
-                  <td scope="row">
+                  <td >
                     <div class="a-box">
                       <div class="img-container">
                         <div class="img-inner">
@@ -955,13 +944,12 @@
                       </div>
                     </div>
                   </td>
-                  <td></td>
                 </tr>
               </tbody>
             </table>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-warning btn-lg" data-dismiss="modal">Cerrar</button>
           </div>
         </div>
       </div>
@@ -969,10 +957,10 @@
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModalM" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
+      <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras el Nahualt</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras en Náhualt con la letra <strong style="color: red">M</strong></h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -981,6 +969,8 @@
             <table class="table">
               <thead>
                 <tr>
+                  <th></th>
+                  <th></th>
                   <th></th>
                   <th></th>
                 </tr>
@@ -1017,9 +1007,7 @@
                        Pez
                     </div>
                   </div></td>
-                </tr>
-                <tr>
-                  <td scope="row">
+                  <td >
                     <div class="a-box">
                       <div class="img-container">
                         <div class="img-inner">
@@ -1051,13 +1039,12 @@
                       </div>
                     </div>
                   </td>
-                  <td></td>
                 </tr>
               </tbody>
             </table>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-warning btn-lg" data-dismiss="modal">Cerrar</button>
           </div>
         </div>
       </div>
@@ -1065,10 +1052,10 @@
 
      <!-- Modal -->
     <div class="modal fade" id="exampleModalN" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
+      <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras el Nahualt</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras en Náhualt con la letra <strong style="color: red">N</strong></h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -1077,6 +1064,8 @@
             <table class="table">
               <thead>
                 <tr>
+                  <th></th>
+                  <th></th>
                   <th></th>
                   <th></th>
                 </tr>
@@ -1113,9 +1102,7 @@
                        Nopal
                     </div>
                   </div></td>
-                </tr>
-                <tr>
-                  <td scope="row">
+                  <td >
                     <div class="a-box">
                       <div class="img-container">
                         <div class="img-inner">
@@ -1147,13 +1134,12 @@
                       </div>
                     </div>
                   </td>
-                  <td></td>
                 </tr>
               </tbody>
             </table>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-warning btn-lg" data-dismiss="modal">Cerrar</button>
           </div>
         </div>
       </div>
@@ -1161,10 +1147,10 @@
 
      <!-- Modal -->
      <div class="modal fade" id="exampleModalO" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
+      <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras el Nahualt</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras en Náhualt con la letra <strong style="color: red">O</strong></h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -1173,6 +1159,8 @@
             <table class="table">
               <thead>
                 <tr>
+                  <th></th>
+                  <th></th>
                   <th></th>
                   <th></th>
                 </tr>
@@ -1209,9 +1197,7 @@
                        Ocote
                     </div>
                   </div></td>
-                </tr>
-                <tr>
-                  <td scope="row">
+                  <td >
                     <div class="a-box">
                       <div class="img-container">
                         <div class="img-inner">
@@ -1243,13 +1229,12 @@
                       </div>
                     </div>
                   </td>
-                  <td></td>
                 </tr>
               </tbody>
             </table>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-warning btn-lg" data-dismiss="modal">Cerrar</button>
           </div>
         </div>
       </div>
@@ -1257,10 +1242,10 @@
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModalP" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
+      <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras el Nahualt</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras en Náhualt con la letra <strong style="color: red">P</strong></h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -1269,6 +1254,8 @@
             <table class="table">
               <thead>
                 <tr>
+                  <th></th>
+                  <th></th>
                   <th></th>
                   <th></th>
                 </tr>
@@ -1305,9 +1292,7 @@
                        Humo
                     </div>
                   </div></td>
-                </tr>
-                <tr>
-                  <td scope="row">
+                  <td >
                     <div class="a-box">
                       <div class="img-container">
                         <div class="img-inner">
@@ -1339,13 +1324,12 @@
                       </div>
                     </div>
                   </td>
-                  <td></td>
                 </tr>
               </tbody>
             </table>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-warning btn-lg" data-dismiss="modal">Cerrar</button>
           </div>
         </div>
       </div>
@@ -1353,10 +1337,10 @@
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModalS" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
+      <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras el Nahualt</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras en Náhualt con la letra <strong style="color: red">S</strong></h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -1365,6 +1349,8 @@
             <table class="table">
               <thead>
                 <tr>
+                  <th></th>
+                  <th></th>
                   <th></th>
                   <th></th>
                 </tr>
@@ -1401,8 +1387,6 @@
                        Lodo
                     </div>
                   </div></td>
-                </tr>
-                <tr>
                   <td scope="row">
                     <div class="a-box">
                       <div class="img-container">
@@ -1435,13 +1419,12 @@
                       </div>
                     </div>
                   </td>
-                  <td></td>
                 </tr>
               </tbody>
             </table>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-warning btn-lg" data-dismiss="modal">Cerrar</button>
           </div>
         </div>
       </div>
@@ -1449,10 +1432,10 @@
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModalT" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
+      <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras el Nahualt</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras en Náhualt con la letra <strong style="color: red">T</strong></h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -1461,6 +1444,8 @@
             <table class="table">
               <thead>
                 <tr>
+                  <th></th>
+                  <th></th>
                   <th></th>
                   <th></th>
                 </tr>
@@ -1497,9 +1482,7 @@
                        Padre
                     </div>
                   </div></td>
-                </tr>
-                <tr>
-                  <td scope="row">
+                  <td >
                     <div class="a-box">
                       <div class="img-container">
                         <div class="img-inner">
@@ -1531,13 +1514,12 @@
                       </div>
                     </div>
                   </td>
-                  <td></td>
                 </tr>
               </tbody>
             </table>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-warning btn-lg" data-dismiss="modal">Cerrar</button>
           </div>
         </div>
       </div>
@@ -1545,10 +1527,10 @@
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModalTL" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
+      <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras el Nahualt</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras en Náhualt con la letra <strong style="color: red">TL</strong></h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -1557,6 +1539,8 @@
             <table class="table">
               <thead>
                 <tr>
+                  <th></th>
+                  <th></th>
                   <th></th>
                   <th></th>
                 </tr>
@@ -1593,9 +1577,7 @@
                        Color
                     </div>
                   </div></td>
-                </tr>
-                <tr>
-                  <td scope="row">
+                  <td >
                     <div class="a-box">
                       <div class="img-container">
                         <div class="img-inner">
@@ -1627,13 +1609,12 @@
                       </div>
                     </div>
                   </td>
-                  <td></td>
                 </tr>
               </tbody>
             </table>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
           </div>
         </div>
       </div>
@@ -1641,10 +1622,10 @@
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModalTS" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
+      <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras el Nahualt</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras en Náhualt con la letra <strong style="color: red">TS</strong></h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -1653,6 +1634,8 @@
             <table class="table">
               <thead>
                 <tr>
+                  <th></th>
+                  <th></th>
                   <th></th>
                   <th></th>
                 </tr>
@@ -1689,8 +1672,6 @@
                        Chicle
                     </div>
                   </div></td>
-                </tr>
-                <tr>
                   <td scope="row">
                     <div class="a-box">
                       <div class="img-container">
@@ -1723,13 +1704,12 @@
                       </div>
                     </div>
                   </td>
-                  <td></td>
                 </tr>
               </tbody>
             </table>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-warning btn-lg" data-dismiss="modal">Cerrar</button>
           </div>
         </div>
       </div>
@@ -1737,10 +1717,10 @@
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModalW" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
+      <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras el Nahualt</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras en Nàhualt con la letra <strong style="color: red">W</strong></h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -1749,6 +1729,8 @@
             <table class="table">
               <thead>
                 <tr>
+                  <th></th>
+                  <th></th>
                   <th></th>
                   <th></th>
                 </tr>
@@ -1785,9 +1767,7 @@
                        Alto
                     </div>
                   </div></td>
-                </tr>
-                <tr>
-                  <td scope="row">
+                  <td >
                     <div class="a-box">
                       <div class="img-container">
                         <div class="img-inner">
@@ -1819,13 +1799,12 @@
                       </div>
                     </div>
                   </td>
-                  <td></td>
                 </tr>
               </tbody>
             </table>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-warning btn-lg" data-dismiss="modal">Cerrar</button>
           </div>
         </div>
       </div>
@@ -1833,10 +1812,10 @@
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModalX" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
+      <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras el Nahualt</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras en Nàhualt con la letra <strong style="color: red">X</strong></h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -1845,6 +1824,8 @@
             <table class="table">
               <thead>
                 <tr>
+                  <th></th>
+                  <th></th>
                   <th></th>
                   <th></th>
                 </tr>
@@ -1881,9 +1862,7 @@
                        Guayaba
                     </div>
                   </div></td>
-                </tr>
-                <tr>
-                  <td scope="row">
+                  <td >
                     <div class="a-box">
                       <div class="img-container">
                         <div class="img-inner">
@@ -1915,13 +1894,12 @@
                       </div>
                     </div>
                   </td>
-                  <td></td>
                 </tr>
               </tbody>
             </table>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-warning btn-lg" data-dismiss="modal">Cerrar</button>
           </div>
         </div>
       </div>
@@ -1929,10 +1907,10 @@
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModalY" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
+      <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras el Nahualt</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Ejemplo de palabras en Nàhualt con la letra <strong style="color: red">Y</strong></h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -1977,9 +1955,7 @@
                        Frijol
                     </div>
                   </div></td>
-                </tr>
-                <tr>
-                  <td scope="row">
+                  <td>
                     <div class="a-box">
                       <div class="img-container">
                         <div class="img-inner">
@@ -2011,13 +1987,12 @@
                       </div>
                     </div>
                   </td>
-                  <td></td>
                 </tr>
               </tbody>
             </table>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-warning btn-lg" data-dismiss="modal">Cerrar</button>
           </div>
         </div>
       </div>
