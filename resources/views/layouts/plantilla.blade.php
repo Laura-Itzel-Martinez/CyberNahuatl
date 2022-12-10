@@ -34,7 +34,7 @@
           <nav>
             <a class="navbar-brand"  href="{{ url('/') }}">
                 <img src="{{asset('img/alcaldia_6.png') }}" width="100" height="65"  alt="" loading="lazy">
-              <span style="color: white;" >CyberNahuatl</span>
+              <span style="color: white;" >CyberNàhuatl</span>
 
             </a>
 
@@ -44,12 +44,12 @@
                 <nav>
                 @if (Route::has('login'))
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('login') }}"><span class="btn" style="background-color:#952f57; color:white">Ingresar</span></a>
+                        <a class="nav-link" href="{{ route('login') }}"><span class="btn" style="background-color:#BC955C; color:white">Ingresar</span></a>
                     </li>
                 @endif
                 @if (Route::has('register'))
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('register') }}"><span class=" btn" style="background-color: #cd0c36; color:white">Registrar</span></a>
+                    <a class="nav-link" href="{{ route('register') }}"><span class=" btn" style="background-color: #235B4E; color:white">Registrar</span></a>
                 </li>
                 @endif
                 @else
@@ -62,7 +62,7 @@
             @yield('content')
 
             <div class="card-footer text-center"  >
-                 © 2022 - CyberNahuatl
+                 © 2022 - CyberNàhuatl
             </div>
 
 

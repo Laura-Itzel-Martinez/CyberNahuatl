@@ -6,11 +6,13 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" href="{{ asset('img/logoCyber.png') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('img/alcaldia_6.png') }}" type="image/x-icon">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap4.min.css">
 
     <link rel="stylesheet" href="librerias/fontawesome/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,7 +45,7 @@
 
       <aside id="sidebar-wrapper" >
         <div class="sidebar-brand">
-          <h2>CyberNahualt</h2><br>
+          <h2>CyberNàhualt</h2><br>
           <h2> <a href="{{ route('home')}}" id="op"><i aria-hidden="true"><img src="{{asset('img/alcaldia_6.png') }}" id="img_alcaldia" alt="" loading="lazy"
             style="text-align: center"></i></a></h2>
         </div>
@@ -123,8 +125,9 @@
             </div>
           </div>
       </section>
-
-
+      <div class="card-footer text-center"  >
+        © 2022 - CyberNàhuatl
+      </div>
     </div>
   <!--/.container-->
 
@@ -148,11 +151,18 @@
     <script src="{{ asset('js/carrucelAlfabeto.js') }}"></script>
     <script src="{{ asset('js/perfil.js') }}"></script>
     <script src="{{ asset('js/numeracion.js') }}"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
-      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
    <script type="text/javascript" src="js/jquery.maphilight.min.js"></script>
    <script src="{{ asset('js/cuerpo.js') }}"></script>
    <script src="{{ asset('js/ruleta_js/bootstrap.js') }}"></script>
+
+
+
+   <script src=" https://code.jquery.com/jquery-3.5.1.js"></script>
+   <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+   <script src=" https://cdn.datatables.net/1.13.1/js/dataTables.bootstrap4.min.js"></script>
+
+   @yield('dataTable')
 
   </body>
 </html>
