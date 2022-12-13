@@ -34,7 +34,7 @@
             <a href="{{ route('honorifico')}}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Honorifico</a>
           </li>
           <li>
-            <a href="{{ route('metaforica')}}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Metaforica</a>
+            <a href="{{ route('metaforica')}}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Metaforicaaaaa</a>
           </li>
           <li>
             <a href="{{ route('omnipredicativa')}}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Omnipredicativa</a>

@@ -184,7 +184,6 @@
 
 
 </div>
-<<<<<<< HEAD
 <br><br>
   <div class="service-container">
     <div class="singleservice">  
@@ -226,11 +225,3 @@
     
   
 @endsection
-=======
-<br><br><br>
-
-
-
-
-@endsection
->>>>>>> 69dc74a0c32b8c2b60601204484f5e195fad4770
