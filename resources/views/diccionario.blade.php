@@ -40,8 +40,32 @@
 @section('dataTable')
 
     <script>
-        $(document).ready(function(){
-            $('#table-id').DataTable();
+            $(document).ready(function(){
+            $('#table-id').DataTable({
+                responsive: true,
+                autoWidth: false,
+
+                "language": {
+                "lengthMenu": "Mostrar    "  +
+                `<select class="custom-select custom-select-sm form-control form-control-sm">
+                    <option value='10'>10</option>
+                    <option value='25'>25</option>
+                    <option value='50'>50</option>
+                    <option value='100'>100</option>
+                    <option value='-1'>Mostrar todos los registros </option>
+                </select>  ` +
+                "registros por página",
+                "zeroRecords": "Palabra no encontrada",
+                "info": "Mostrando la pagina _PAGE_ de _PAGES_",
+                "infoEmpty": "No records available",
+                "infoFiltered": "(filtrado de _MAX_ registros totales)",
+                'search' : 'Buscar:',
+                'paginate' : {
+                    'next' : 'Siguiente',
+                    'previous' : 'Anterior'
+                }
+                }
+            })
         })
     </script>
 
