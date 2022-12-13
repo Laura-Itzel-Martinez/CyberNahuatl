@@ -45,7 +45,7 @@
 
       <aside id="sidebar-wrapper" >
         <div class="sidebar-brand">
-          <h2>CyberNàhualt</h2><br>
+          <h2>CyberNàhuatl</h2><br>
           <h2> <a href="{{ route('home')}}" id="op"><i aria-hidden="true"><img src="{{asset('img/alcaldia_6.png') }}" id="img_alcaldia" alt="" loading="lazy"
             style="text-align: center"></i></a></h2>
         </div>
