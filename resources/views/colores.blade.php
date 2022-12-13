@@ -1,5 +1,6 @@
 @extends('layouts.plantilla3')
 @extends('layouts.plantilla2')
+@section('tituloPagina', 'Colores')
 
 @section('content')
 

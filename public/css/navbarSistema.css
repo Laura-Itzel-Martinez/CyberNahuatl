@@ -1,12 +1,13 @@
 #op{
-  padding-left: 35px;
+  padding-left: 5px;
   margin-inline: true;
   font-family:'Source Sans Pro';
 }
 #img_alcaldia{
 
- height:150px ;
- width:200px" 
+ height:100px ;
+ position: static;
+
 }
 .card-footer{
 
@@ -61,7 +62,7 @@ a:focus {
   position: absolute;
   top: 0;
   width: 250px;
-  text-align: center;
+
   padding: 20px 0;
 }
 .sidebar-brand h2 {
@@ -81,7 +82,7 @@ a:focus {
 }
 .sidebar-nav > li {
   text-indent: 10px;
-  line-height: 50px;
+  line-height: 40px;
 }
 /*parte izquierda*/
 .sidebar-nav > li a {

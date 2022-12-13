@@ -1,4 +1,5 @@
 @extends('layouts.plantilla4')
+@section('tituloPagina', ' Curso Diminutivos.')
 
 @section('content')
 
@@ -60,6 +61,7 @@
 
         </div>
     </div>
+    <br><br><br><br><br><br><br><br>
 @endsection
 
 

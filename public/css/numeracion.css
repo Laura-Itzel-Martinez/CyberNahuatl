@@ -9,7 +9,7 @@
   overflow-x: hidden;
   overflow-y:visible;
   background-size: cover;
-  
+
 }
 
 
@@ -20,7 +20,7 @@
 
 
 label, input#reset {
-  font-family: Kreon, arial, sans-serif;
+    font-family:'Source Sans Pro';
   display: inline-block;
   width: 80%;
   margin: 0;
@@ -128,11 +128,11 @@ label::after, input#reset {
 #step-1:checked ~ #bubble-1,
 #step-2:checked ~ #bubble-2,
 #step-3:checked ~ #bubble-3,
-#step-4:checked ~ #bubble-4 { 
-  display: block; 
+#step-4:checked ~ #bubble-4 {
+  display: block;
 }
 
-input[name=step] { 
+input[name=step] {
   position: absolute;
   top: -200vmax;
   left: -200vmax;
@@ -164,7 +164,7 @@ input[name=step] {
   margin-left: 3vmin;
   background: #eee;
   border-radius: 1vmin;
- 
+
 }
 
 .card .let {
@@ -275,13 +275,13 @@ input[name=step] {
   top: auto;
 }
 
-.card.red .figure.hands::before, 
+.card.red .figure.hands::before,
 .card.red .figure.hands::after {
   background-color: #111;
 }
 
 .figure.king {
-  clip-path: polygon(20% 50%, 60% 15%, 60% 25%, 70% 15%, 70% 25%, 80% 15%, 80% 50%, 40% 85%, 40% 75%, 30% 85%, 30% 75%, 20% 85%); 
+  clip-path: polygon(20% 50%, 60% 15%, 60% 25%, 70% 15%, 70% 25%, 80% 15%, 80% 50%, 40% 85%, 40% 75%, 30% 85%, 30% 75%, 20% 85%);
   -webkit-clip-path: polygon(20% 50%, 60% 15%, 60% 25%, 70% 15%, 70% 25%, 80% 15%, 80% 50%, 40% 85%, 40% 75%, 30% 85%, 30% 75%, 20% 85%);
 }
 
@@ -295,12 +295,12 @@ input[name=step] {
 
 .figure.queen {
   clip-path: polygon(20% 50%, 50% 27%, 50% 15%, 58% 25%, 65% 15%, 72% 25%, 80% 15%, 80% 50%, 50% 73%, 50% 85%, 42% 75%, 35% 85%, 28% 75%, 20% 85%);
-  -webkit-clip-path: polygon(20% 50%, 50% 27%, 50% 15%, 58% 25%, 65% 15%, 72% 25%, 80% 15%, 80% 50%, 50% 73%, 50% 85%, 42% 75%, 35% 85%, 28% 75%, 20% 85%); 
+  -webkit-clip-path: polygon(20% 50%, 50% 27%, 50% 15%, 58% 25%, 65% 15%, 72% 25%, 80% 15%, 80% 50%, 50% 73%, 50% 85%, 42% 75%, 35% 85%, 28% 75%, 20% 85%);
 }
 
 .figure.jack {
-  clip-path: polygon(20% 50%, 50% 27%, 50% 20%, 60% 15%, 70% 15%, 80% 20%, 80% 50%, 50% 73%, 50% 80%, 40% 85%, 30% 85%, 20% 80%); 
-  -webkit-clip-path: polygon(20% 50%, 50% 27%, 50% 20%, 60% 15%, 70% 15%, 80% 20%, 80% 50%, 50% 73%, 50% 80%, 40% 85%, 30% 85%, 20% 80%); 
+  clip-path: polygon(20% 50%, 50% 27%, 50% 20%, 60% 15%, 70% 15%, 80% 20%, 80% 50%, 50% 73%, 50% 80%, 40% 85%, 30% 85%, 20% 80%);
+  -webkit-clip-path: polygon(20% 50%, 50% 27%, 50% 20%, 60% 15%, 70% 15%, 80% 20%, 80% 50%, 50% 73%, 50% 80%, 40% 85%, 30% 85%, 20% 80%);
 }
 
 .card:nth-child(1) {
@@ -315,4 +315,4 @@ input[name=step] {
   left: 50%;
 }
 
-  
+

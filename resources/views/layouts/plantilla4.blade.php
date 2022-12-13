@@ -1,11 +1,11 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>@yield('tituloPagina')</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" href="{{ asset('img/logoCyber.png') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('img/alcaldia_6.png') }}" type="image/x-icon" style="width: 50px">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -14,7 +14,7 @@
     <link href="{{asset('css/cursos.css') }}" rel="stylesheet">
     <link href="{{asset('librerias/fontawesome/css/all.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="librerias/fontawesome/css/all.css">
-    
+
 
 
   </head>
@@ -24,7 +24,7 @@
 
       <aside id="sidebar-wrapper" >
         <div class="sidebar-brand">
-          <h2>Cursos en Nahualt</h2>
+          <h2 class="text-center">Cursos en Nahualt</h2>
         </div>
         <ul class="sidebar-nav" >
           <li class="">
@@ -64,6 +64,16 @@
         </ul>
       </aside>
 
+      <div id="navbar-wrapper" style="position: fixed" >
+        <nav class="navbar navbar-inverse" >
+          <div class="container-fluid" >
+            <div class="navbar-header" >
+              <div class="row" id="barra" id="navbar-menu">
+                            </div>
+          </div>
+        </nav>
+      </div>
+
       <section id="content-wrapper">
         <div class="row">
           <div class="col-lg-12">
@@ -71,6 +81,9 @@
           </div>
         </div>
     </section>
+    <div class="card-footer text-center"  >
+      © 2022 - CyberNahuatl
+    </div>
 
 
     </div>

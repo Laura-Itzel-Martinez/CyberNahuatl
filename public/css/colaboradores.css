@@ -107,26 +107,6 @@ hr{
   border-color:#E4E8ED;
 }
 
-.top{
-  margin-top:16px;
-}
-.color-a{
-  background: linear-gradient(to top right, #8162CE, #F54BA5);
-}
-
-.color-b{
-  background: linear-gradient(to bottom right, #C90A6D, #FF48A0);
-}
-
-.color-c{
-  background: linear-gradient(to bottom right, #5E5AEC, #3F9EFC);
-}
-.color-d{
-  background: linear-gradient(to bottom right, #6452E9, #639FF9);
-}
-
-
-
 .circule{
   border-radius:50%;
   border:none;
@@ -142,7 +122,7 @@ hr{
 }
 
 .img{
-  width:280px;
+  width:300px;
   display:block;
 margin:auto;
 
@@ -240,8 +220,8 @@ box-shadow: 10px 10px 44px 15px rgba(0,0,0,0.14);
 .profile{
   border-radius:100%;
   margin-top:50px;
-  width:132px;
-  height:128px;
+  width:159px;
+  height:158px;
 text-align: center;
 
 }

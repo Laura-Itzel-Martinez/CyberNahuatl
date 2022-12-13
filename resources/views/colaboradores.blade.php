@@ -1,4 +1,5 @@
 @extends('layouts.plantilla2')
+@section('tituloPagina', 'Colaboradores')
 
 @section('content')
 
@@ -34,6 +35,7 @@
       <h5 id="texto">Alcaldesa de Milpa Alta Judith Vanegas Tapia.</h5>
     </div>
   </div>
+
 </div>
 
 </body>

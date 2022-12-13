@@ -1,7 +1,7 @@
 /*Efecto*/
 .modalmask {
     position: fixed;
-    font-family:'Alata', sans-serif;;
+    font-family:'Source Sans Pro';
     top: 0;
     right: 0;
     bottom: 0;
@@ -29,7 +29,7 @@
     -webkit-transition: all 500ms ease-in;
     -moz-transition: all 500ms ease-in;
     transition: all 500ms ease-in;
-     
+
 }
 
 /*Movimientos*/
@@ -45,16 +45,16 @@
     margin: 10% auto;
     width:0;
     height:0;
- 
+
 }
-.modalmask:target .movedown{       
+.modalmask:target .movedown{
     margin:10% auto;
 }
-.modalmask:target .rotate{     
+.modalmask:target .rotate{
     transform: rotate(360deg) scale(1,1);
         -webkit-transform: rotate(360deg) scale(1,1);
 }
- 
+
 .modalmask:target .resize{
     width:400px;
     height:200px;
@@ -73,9 +73,9 @@
     text-decoration: none;
     font-weight: bold;
     border-radius:3px;
- 
+
 }
- 
+
 .close:hover {
     background: #FAAC58;
     color:#222;
