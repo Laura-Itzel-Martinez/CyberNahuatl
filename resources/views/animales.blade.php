@@ -552,17 +552,17 @@
         </div>
         <div class="col">
             <div class="container">
-                <div class="front" style="background-image: url('{{asset('img/animales/zopilote.jpg')}}')">
+                <div class="front" style="background-image: url('{{asset('img/animales/mariposa.jpg')}}')">
                     <div class="inner">
-                        <p>Tsohpilutl</p>
-                        <span>Zopilote</span>
+                        <p>Papalutl</p>
+                        <span>Mariposa</span>
                     </div>
                 </div>
                 <div class="back">
                     <div class="inner">
-                        <p><h6>El buitre negro, también conocido como buitre negro americano, buitre mexicano, zopilote,
-                            urubu o gallinazo, es un ave de la familia de los buitres del Nuevo Mundo cuya distribución se
-                             extiende desde el noreste de Estados Unidos hasta Perú, Chile central y Uruguay en América del Sur.</h6>
+                        <p><h6>Los lepidópteros, mas conocidos comúnmente como mariposas, son unos insectos pertenecientes al orden
+                            de los homometábolos, un grupo de insectos superiores, los cuales, a lo largo de su vida sufren una serie
+                             de transformaciones complejas conocida como metamorfosis, y en la que se suceden las fases de embrión, larva, pupa e imago.</h6>
                         </p>
                     </div>
                 </div>
@@ -571,7 +571,7 @@
                 <div class="col mt-3">
                     <span>Pronunciación</span>
                     <audio controls>
-                        <source src="{{asset('audios/animales/aguila.mp3')}}" type="audio/mp3">
+                        <source src="{{asset('audios/animales/mariposa.mp3')}}" type="audio/mp3">
                       </audio>
                 </div>
             </div>
