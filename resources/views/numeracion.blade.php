@@ -21,7 +21,7 @@
                 <thead>
                   <tr>
 
-                    <th scope="col">Nahuatl</th>
+                    <th scope="col">Nàhuatl</th>
                     <th scope="col">Español</th>
                     <th scope="col">Pronunciación</th>
                   </tr>

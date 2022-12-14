@@ -3,7 +3,7 @@
 
 @section('content')
 <br><br>
-<span ><p ><h5 class="display-4 text-center" >Animales en Nahuatl.</h5></p></span>
+<span ><p ><h5 class="display-4 text-center" >Animales en Nàhuatl.</h5></p></span>
 
 
 <div class="wrapper">
@@ -24,6 +24,14 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col mt-3">
+                    <span>Pronunciación</span>
+                    <audio controls>
+                        <source src="{{asset('audios/animales/aguila.mp3')}}" type="audio/mp3">
+                      </audio>
+                </div>
+            </div>
         </div>
         <div class="col" >
             <div class="container">
@@ -42,6 +50,14 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col mt-3">
+                    <span>Pronunciación</span>
+                    <audio controls>
+                        <source src="{{asset('audios/animales/cocodrilo.mp3')}}" type="audio/mp3">
+                      </audio>
+                </div>
+            </div>
         </div>
         <div class="col">
             <div class="container">
@@ -58,6 +74,14 @@
                              son patas de todos ellos.</h6>
                         </p>
                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col mt-3">
+                    <span>Pronunciación</span>
+                    <audio controls>
+                        <source src="{{asset('audios/animales/serpiente.mp3')}}" type="audio/mp3">
+                      </audio>
                 </div>
             </div>
         </div>
@@ -83,6 +107,14 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col mt-3">
+                    <span>Pronunciación</span>
+                    <audio controls>
+                        <source src="{{asset('audios/animales/conejo.mp3')}}" type="audio/mp3">
+                      </audio>
+                </div>
+            </div>
         </div>
         <div class="col" >
             <div class="container">
@@ -98,6 +130,14 @@
                             Suelen medir entre 1,30 y 2 metros de largo. Poseen una cola larga, y no son, en principio, demasiado diferentes anatómicamente de un perro.</h6>
                         </p>
                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col mt-3">
+                    <span>Pronunciación</span>
+                    <audio controls>
+                        <source src="{{asset('audios/animales/lobo.mp3')}}" type="audio/mp3">
+                      </audio>
                 </div>
             </div>
         </div>
@@ -116,6 +156,14 @@
                              y están adaptadas para saltar.</h6>
                         </p>
                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col mt-3">
+                    <span>Pronunciación</span>
+                    <audio controls>
+                        <source src="{{asset('audios/animales/capulin.mp3')}}" type="audio/mp3">
+                      </audio>
                 </div>
             </div>
         </div>
@@ -141,6 +189,14 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col mt-3">
+                    <span>Pronunciación</span>
+                    <audio controls>
+                        <source src="{{asset('audios/animales/armadillo.mp3')}}" type="audio/mp3">
+                      </audio>
+                </div>
+            </div>
         </div>
         <div class="col" >
             <div class="container">
@@ -159,6 +215,14 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col mt-3">
+                    <span>Pronunciación</span>
+                    <audio controls>
+                        <source src="{{asset('audios/animales/lagartija.mp3')}}" type="audio/mp3">
+                      </audio>
+                </div>
+            </div>
         </div>
         <div class="col">
             <div class="container">
@@ -174,6 +238,14 @@
                              Existen alrededor de 330 especies de colibríes y viven solamente en América.</h6>
                         </p>
                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col mt-3">
+                    <span>Pronunciación</span>
+                    <audio controls>
+                        <source src="{{asset('audios/animales/colibri.mp3')}}" type="audio/mp3">
+                      </audio>
                 </div>
             </div>
         </div>
@@ -199,6 +271,14 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col mt-3">
+                    <span>Pronunciación</span>
+                    <audio controls>
+                        <source src="{{asset('audios/animales/pajaro.mp3')}}" type="audio/mp3">
+                      </audio>
+                </div>
+            </div>
         </div>
         <div class="col" >
             <div class="container">
@@ -217,6 +297,14 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col mt-3">
+                    <span>Pronunciación</span>
+                    <audio controls>
+                        <source src="{{asset('audios/animales/tortuga.mp3')}}" type="audio/mp3">
+                      </audio>
+                </div>
+            </div>
         </div>
         <div class="col">
             <div class="container">
@@ -233,6 +321,14 @@
                              Sus patas traseras son más largas que las delanteras (para impulsarse en sus saltos).</h6>
                         </p>
                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col mt-3">
+                    <span>Pronunciación</span>
+                    <audio controls>
+                        <source src="{{asset('audios/animales/rana.mp3')}}" type="audio/mp3">
+                      </audio>
                 </div>
             </div>
         </div>
@@ -257,6 +353,14 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col mt-3">
+                    <span>Pronunciación</span>
+                    <audio controls>
+                        <source src="{{asset('audios/animales/zorrillo.mp3')}}" type="audio/mp3">
+                      </audio>
+                </div>
+            </div>
         </div>
         <div class="col" >
             <div class="container">
@@ -272,6 +376,14 @@
                             la cual oscila entre 45 y 75 cm de longitud, y alcanza 60 cm a la altura de la cruz.</h6>
                         </p>
                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col mt-3">
+                    <span>Pronunciación</span>
+                    <audio controls>
+                        <source src="{{asset('audios/animales/jaguar.mp3')}}" type="audio/mp3">
+                      </audio>
                 </div>
             </div>
         </div>
@@ -290,6 +402,14 @@
                              alce, el ciervo rojo, el reno, el corzo y el axis.</h6>
                         </p>
                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col mt-3">
+                    <span>Pronunciación</span>
+                    <audio controls>
+                        <source src="{{asset('audios/animales/venado.mp3')}}" type="audio/mp3">
+                      </audio>
                 </div>
             </div>
         </div>
@@ -314,6 +434,14 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col mt-3">
+                    <span>Pronunciación</span>
+                    <audio controls>
+                        <source src="{{asset('audios/animales/quetzal.mp3')}}" type="audio/mp3">
+                      </audio>
+                </div>
+            </div>
         </div>
         <div class="col" >
             <div class="container">
@@ -332,6 +460,14 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col mt-3">
+                    <span>Pronunciación</span>
+                    <audio controls>
+                        <source src="{{asset('audios/animales/mono.mp3')}}" type="audio/mp3">
+                      </audio>
+                </div>
+            </div>
         </div>
         <div class="col">
             <div class="container">
@@ -348,6 +484,14 @@
                              unos músculos fuertes y habilidades importantes para su supervivencia</h6>
                         </p>
                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col mt-3">
+                    <span>Pronunciación</span>
+                    <audio controls>
+                        <source src="{{asset('audios/animales/perro.mp3')}}" type="audio/mp3">
+                      </audio>
                 </div>
             </div>
         </div>
@@ -371,6 +515,14 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col mt-3">
+                    <span>Pronunciación</span>
+                    <audio controls>
+                        <source src="{{asset('audios/animales/gusano.mp3')}}" type="audio/mp3">
+                      </audio>
+                </div>
+            </div>
         </div>
         <div class="col" >
             <div class="container">
@@ -389,6 +541,14 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col mt-3">
+                    <span>Pronunciación</span>
+                    <audio controls>
+                        <source src="{{asset('audios/animales/flamingo.mp3')}}" type="audio/mp3">
+                      </audio>
+                </div>
+            </div>
         </div>
         <div class="col">
             <div class="container">
@@ -405,6 +565,14 @@
                              extiende desde el noreste de Estados Unidos hasta Perú, Chile central y Uruguay en América del Sur.</h6>
                         </p>
                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col mt-3">
+                    <span>Pronunciación</span>
+                    <audio controls>
+                        <source src="{{asset('audios/animales/aguila.mp3')}}" type="audio/mp3">
+                      </audio>
                 </div>
             </div>
         </div>
