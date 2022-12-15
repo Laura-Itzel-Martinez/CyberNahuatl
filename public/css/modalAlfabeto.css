@@ -1,64 +1,1333 @@
+.reproductor{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
 
 
-.play {
-  display: block;
-  width: 0;
-  height: 0;
-  border-top: 50px solid transparent;
-  border-bottom: 50px solid transparent;
-  border-left: 60px solid #2c3e50;
-  margin: 100px auto 50px auto;
-  position: relative;
-  z-index: 1;
-  transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  left: 10px;
 }
-.play:before {
-  content: '';
-  position: absolute;
-  top: -75px;
-  left: -115.0px;
-  bottom: -75px;
-  right: -35px;
-  border-radius: 50%;
-  border: 10px solid #2c3e50;
-  z-index: 2;
-  transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
+.reproductor:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
 }
-.play:after {
-  content: '';
-  opacity: 0;
-  transition: opacity 0.6s;
-  -webkit-transition: opacity 0.6s;
-  -moz-transition: opacity 0.6s;
+/*papel*/
+.reproductor2{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
 }
-.play:hover:before, .play:focus:before {
-  transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
+.reproductor2:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
 }
-.play.active {
-  border-color: transparent;
+/*lago*/
+.reproductor3{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
 }
-.play.active:after {
-  content: '';
-  opacity: 1;
-  width: 50px;
-  height: 80px;
-  background: #2c3e50;
-  position: absolute;
-  right: 5px;
-  top: -40px;
-  border-left: 20px solid #2c3e50;
-  box-shadow: inset 30px 0 0 0 #f9f9f9;
+.reproductor3:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+/*lago*/
+.reproductor4{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor4:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+/*chile*/
+.reproductor5{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor5:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+/*perro*/
+.reproductor6{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor6:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+/*cerveza*/
+.reproductor7{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor7:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+/*fuerte*/
+.reproductor8{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor8:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+/*elote*/
+.reproductor9{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor9:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
 }
 
-#player {
-  position: absolute;
-  top: 5px;
-  right: 5px;
+.reproductor10{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
 }
+.reproductor10:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.reproductor11{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor11:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.reproductor12{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor12:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.reproductor13{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor13:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.reproductor14{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor14:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.reproductor15{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor15:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.reproductor16{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor16:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.reproductor17{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor17:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.reproductor18{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor18:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.reproductor19{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor19:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.reproductor20{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor20:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.reproductor21{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor21:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.reproductor22{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor22:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.reproductor23{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor23:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+/*narz*/
+.reproductor24{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor24:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.reproductor25{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor25:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.reproductor26{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor26:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.reproductor27{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor27:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.reproductor28{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor28:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.reproductor29{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor29:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.reproductor30{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor30:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.reproductor31{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor31:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.reproductor32{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor32:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.reproductor33{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor33:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.reproductor34{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor34:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.reproductor35{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor35:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.reproductor36{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor36:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.reproductor37{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor37:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.reproductor38{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor38:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.reproductor39{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor39:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.reproductor40{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor40:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.reproductor41{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor41:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.reproductor42{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor42:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.reproductor43{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor43:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.reproductor44{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor44:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.reproductor45{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor45:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.reproductor46{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor46:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.reproductor47{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor47:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.reproductor48{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor48:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.reproductor49{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor49:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.reproductor50{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor50:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.reproductor51{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor51:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.reproductor52{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor52:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.reproductor53{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor53:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.reproductor54{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor54:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.reproductor55{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor55:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.reproductor56{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor56:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.reproductor57{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor57:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.reproductor58{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor58:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.reproductor59{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor59:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+
+}
+.reproductor60{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor60:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.reproductor61{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor61:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.reproductor62{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor62:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.reproductor63{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor63:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.reproductor64{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor64:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.reproductor65{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor65:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.reproductor66{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor66:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.reproductor67{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor67:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.reproductor68{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor68:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.reproductor69{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor69:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.reproductor70{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor70:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.reproductor71{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor71:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.reproductor72{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor72:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.reproductor73{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor73:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.reproductor74{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor74:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.reproductor75{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor75:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.reproductor76{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor76:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.reproductor77{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor77:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.reproductor78{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor78:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.reproductor79{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor79:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.reproductor80{
+  margin-top: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color:#9F2241 ;
+  color: white;
+
+
+}
+.reproductor80:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+
+
+
+
+
+
+

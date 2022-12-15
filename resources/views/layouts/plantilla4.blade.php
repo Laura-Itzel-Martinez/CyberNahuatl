@@ -58,6 +58,8 @@
           <li>
             <a href="{{ route('posesivos')}}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Posesivos.<a>
           </li>
+          <hr>
+
           <li>
             <a href="{{ route('video1')}}"><i class="fa fa-solid fa-video"></i>Video explicativo 1<a>
           </li>
