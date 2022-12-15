@@ -112,7 +112,7 @@
     <!-- -->
     <!-- aqui introduccir color rojo-->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog " role="document">
+        <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title" id="exampleModalLabel">Color Rojo</h5>
@@ -124,11 +124,9 @@
               <table class="table table-striped" id="t_colores">
                 <thead >
                   <tr>
-
                     <th>Color en Nahuatl</th>
-
                     <th >Color en Español</th>
-
+                    <th style="text-align: center">Pronunciación</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -136,7 +134,11 @@
 
                     <td>chichiltik</td>
                     <td>Rojo</td>
-
+                    <td>
+                      <audio controls>
+                        <source src="{{asset('audios/colores/c_rojo.mp3')}}" type="audio/mp3">
+                      </audio>
+                    </td>
                   </tr>
 
                   </tr>
@@ -154,7 +156,7 @@
 
     <!-- aqui introduccir color azul-->
     <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog " role="document">
+      <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel">Color Azul</h5>
@@ -170,7 +172,7 @@
                   <th>Color en Nahuatl</th>
 
                   <th >Color en Español</th>
-
+                  <th style="text-align: center">Pronunciación</th>
                 </tr>
               </thead>
               <tbody>
@@ -178,7 +180,11 @@
 
                   <td>yawitl</td>
                   <td>Azul</td>
-
+                  <td>
+                    <audio controls>
+                      <source src="{{asset('audios/colores/c_azul.mp3')}}" type="audio/mp3">
+                    </audio>
+                  </td>
                 </tr>
 
                 </tr>
@@ -195,7 +201,7 @@
 
     <!-- aqui introduccir color naranja-->
     <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog " role="document">
+      <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel">Color Naranja</h5>
@@ -211,15 +217,19 @@
                   <th>Color en Nahuatl</th>
 
                   <th >Color en Español</th>
-
+                  <th style="text-align: center">Pronunciación</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
 
-                  <td> tlikosnaltik</td>
+                  <td>tlikosnaltik</td>
                   <td>Naranja</td>
-
+                  <td>
+                    <audio controls>
+                      <source src="{{asset('audios/colores/c_naranja.mp3')}}" type="audio/mp3">
+                    </audio>
+                  </td>
                 </tr>
 
                 </tr>
@@ -237,7 +247,7 @@
 
     <!-- aqui introduccir color Azul cielo-->
     <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog " role="document">
+      <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel">Color Azul cielo</h5>
@@ -253,7 +263,7 @@
                   <th>Color en Nahuatl</th>
 
                   <th >Color en Español</th>
-
+                  <th style="text-align: center">Pronunciación</th>
                 </tr>
               </thead>
               <tbody>
@@ -261,7 +271,11 @@
 
                   <td>ilhwikayawitl</td>
                   <td>Azul cielo</td>
-
+                  <td>
+                    <audio controls>
+                      <source src="{{asset('audios/colores/c_azul_cielo.mp3')}}" type="audio/mp3">
+                    </audio>
+                  </td>
                 </tr>
 
                 </tr>
@@ -279,7 +293,7 @@
 
     <!-- aqui introduccir color blanco-->
     <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog " role="document">
+      <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel">Color Blanco</h5>
@@ -295,15 +309,19 @@
                   <th>Color en Nahuatl</th>
 
                   <th >Color en Español</th>
-
+                  <th style="text-align: center">Pronunciación</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
 
-                  <td> istak</td>
+                  <td>istak</td>
                   <td>Blanco</td>
-
+                  <td>
+                    <audio controls>
+                      <source src="{{asset('audios/colores/c_blanco.mp3')}}" type="audio/mp3">
+                    </audio>
+                  </td>
                 </tr>
 
                 </tr>
@@ -319,7 +337,7 @@
     </div>
     <!-- color amarillo-->
     <div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog " role="document">
+      <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel">Color Amarillo</h5>
@@ -335,7 +353,7 @@
                   <th>Color en Nahuatl</th>
 
                   <th >Color en Español</th>
-
+                  <th style="text-align: center">Pronunciación</th>
                 </tr>
               </thead>
               <tbody>
@@ -343,7 +361,11 @@
 
                   <td>kostik </td>
                   <td>Amarillo</td>
-
+                  <td>
+                    <audio controls>
+                      <source src="{{asset('audios/colores/c_amarillo.mp3')}}" type="audio/mp3">
+                    </audio>
+                  </td>
                 </tr>
 
                 </tr>
@@ -359,7 +381,7 @@
     </div>
     <!--  color morado-->
     <div class="modal fade" id="exampleModal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog " role="document">
+      <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel">Color Morado</h5>
@@ -375,7 +397,7 @@
                   <th>Color en Nahuatl</th>
 
                   <th >Color en Español</th>
-
+                  <th style="text-align: center">Pronunciación</th>
                 </tr>
               </thead>
               <tbody>
@@ -383,7 +405,11 @@
 
                   <td> kamohtik</td>
                   <td>Morado</td>
-
+                  <td>
+                    <audio controls>
+                      <source src="{{asset('audios/colores/c_morado.mp3')}}" type="audio/mp3">
+                    </audio>
+                  </td>
                 </tr>
 
                 </tr>
@@ -399,7 +425,7 @@
     </div>
      <!--  color Gris-->
      <div class="modal fade" id="exampleModal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog " role="document">
+      <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel">Color Gris</h5>
@@ -415,7 +441,7 @@
                   <th>Color en Nahuatl</th>
 
                   <th >Color en Español</th>
-
+                  <th style="text-align: center">Pronunciación</th>
                 </tr>
               </thead>
               <tbody>
@@ -423,7 +449,11 @@
 
                   <td>nextik</td>
                   <td>Gris</td>
-
+                  <td>
+                    <audio controls>
+                      <source src="{{asset('audios/colores/c_gris.opus')}}" type="audio/mp3">
+                    </audio>
+                  </td>
                 </tr>
 
                 </tr>

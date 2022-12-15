@@ -204,7 +204,7 @@ $(document).ready(function () {
       
          <tr style="color:#32383e;text-align:center">
                <td id="td_cuerpo">Pie</td>
-               <td id="td_cuerpo"></td>
+               <td id="td_cuerpo">Ikxitl</td>
                
          </tr>
       

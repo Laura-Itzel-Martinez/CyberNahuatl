@@ -134,13 +134,6 @@
                         <h3>Atl</h3>
                         <div>
                            Agua
-                           <audio autoplay id="player" src="http://cs4273.vk.me/u5075890/audios/6c9abaa10b90.mp3"></audio>
-                           <div>
-                               <div onclick="document.getElementById('player').muted=!document.getElementById('player').muted" class="play"></div>
-                           </div>
-
-                      </div>
-                      <div>
                       </div>
                     </div>
                   </td>
@@ -437,7 +430,7 @@
                       </div>
                     </div>
                     <div class="text-container">
-                      <h3>pendiente</h3>
+                      <h3>Pahtle</h3>
                       <div>
                        Medicina
                     </div>
@@ -468,7 +461,7 @@
                         </div>
                       </div>
                       <div class="text-container">
-                        <h3>Mehtolle</h3>
+                        <h3>Mehtolin</h3>
                         <div>
                           Piojo
                       </div>
@@ -518,7 +511,7 @@
                         </div>
                       </div>
                       <div class="text-container">
-                        <h3>Ichan</h3>
+                        <h3>Ixhwin</h3>
                         <div>
                           Nieto
                       </div>
@@ -708,9 +701,9 @@
                         </div>
                       </div>
                       <div class="text-container">
-                        <h3>Koniatl</h3>
+                        <h3>Konetl</h3>
                         <div>
-                          Bebe
+                          Niño
                       </div>
                     </div>
                   </td>
@@ -754,7 +747,7 @@
                         </div>
                       </div>
                       <div class="text-container">
-                        <h3>Kulle</h3>
+                        <h3>Kultsin</h3>
                         <div>
                           Abuelo
                       </div>
@@ -805,7 +798,7 @@
                       <div class="text-container">
                         <h3>Kwawitl</h3>
                         <div>
-                          Arbol
+                          Árbol
                       </div>
                     </div>
                   </td>
@@ -849,7 +842,7 @@
                         </div>
                       </div>
                       <div class="text-container">
-                        <h3>Kwascuchtl</h3>
+                        <h3>Kwaxuchtle</h3>
                         <div>
                           Lindero
                       </div>
@@ -899,7 +892,7 @@
                         </div>
                       </div>
                       <div class="text-container">
-                        <h3>Lipia</h3>
+                        <h3>Ilpia</h3>
                         <div>
                           Amarrar
                       </div>
@@ -924,14 +917,14 @@
                       <div class="img-container">
                         <div class="img-inner">
                           <div class="inner-skew">
-                            <img src="{{asset('img/imgAlfabeto/L/bien.jpg')}}">
+                            <img src="{{asset('img/imgAlfabeto/L/tierra.jpg')}}">
                           </div>
                         </div>
                       </div>
                       <div class="text-container">
-                        <h3>Kwalle</h3>
+                        <h3>Tlalle</h3>
                         <div>
-                         Bien
+                          Tierra
                       </div>
                     </div>
                   </td>
@@ -940,14 +933,14 @@
                       <div class="img-container">
                         <div class="img-inner">
                           <div class="inner-skew">
-                            <img src="{{asset('img/imgAlfabeto/L/lindero.jpg')}}">
+                            <img src="{{asset('img/imgAlfabeto/L/temprano.jpg')}}">
                           </div>
                         </div>
                       </div>
                       <div class="text-container">
-                        <h3>Kwascuchtl</h3>
+                        <h3>Kwalkan</h3>
                         <div>
-                          Lindero
+                          Temprano
                       </div>
                     </div>
                   </td>
@@ -1199,7 +1192,7 @@
                       </div>
                     </div>
                     <div class="text-container">
-                      <h3>Okutl</h3>
+                      <h3>Okotl</h3>
                       <div>
                        Ocote
                     </div>
@@ -1374,7 +1367,7 @@
                         </div>
                       </div>
                       <div class="text-container">
-                        <h3>Sihtle</h3>
+                        <h3>Sihsin</h3>
                         <div>
                           Abuela
                       </div>
@@ -1484,7 +1477,7 @@
                       </div>
                     </div>
                     <div class="text-container">
-                      <h3>Tahtle</h3>
+                      <h3>Tahtsin</h3>
                       <div>
                        Padre
                     </div>
@@ -1566,7 +1559,7 @@
                       <div class="text-container">
                         <h3>Tlakowa</h3>
                         <div>
-                          Compras
+                          Comprar algo
                       </div>
                     </div>
                   </td>
@@ -1749,14 +1742,14 @@
                       <div class="img-container">
                         <div class="img-inner">
                           <div class="inner-skew">
-                            <img src="{{asset('img/imgAlfabeto/W/cuatro.jpg')}}">
+                            <img src="{{asset('img/imgAlfabeto/W/espina.jpg')}}">
                           </div>
                         </div>
                       </div>
                       <div class="text-container">
-                        <h3>Nawe</h3>
+                        <h3>Wistle</h3>
                         <div>
-                          Cuarto
+                          Espina
                       </div>
                     </div>
                   </td>
@@ -1879,7 +1872,7 @@
                         </div>
                       </div>
                       <div class="text-container">
-                        <h3>Weyakalle</h3>
+                        <h3>Xuletl</h3>
                         <div>
                          Hongo
                       </div>
@@ -1928,6 +1921,8 @@
                 <tr>
                   <th></th>
                   <th></th>
+                  <th></th>
+                  <th></th>
                 </tr>
               </thead>
               <tbody>
@@ -1942,7 +1937,7 @@
                         </div>
                       </div>
                       <div class="text-container">
-                        <h3>Yehuekatl</h3>
+                        <h3>Yehyekatl</h3>
                         <div>
                           Viento
                       </div>

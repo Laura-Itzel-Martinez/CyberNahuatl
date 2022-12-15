@@ -95,8 +95,20 @@
                 <div class="col-sm-1"></div>
                 <a href="{{ route('colaboradores')}}"><i class="fa fa-users" aria-hidden="true"></i> Colaboradores</a>
 
+                <div class="col" id="salir">
 
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                      <i class="fa fa-user" aria-hidden="true"></i> {{ Auth::user()->nombre }}
+                  </a>
 
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                      <a class="dropdown-item" style="color: black">Correo: {{ Auth::user()->email}}</a>
+
+                    <a class="dropdown-item" href="{{url('/logout')}}" style="color: black">Cerrar sesión</a>
+                  </div>
+
+                </div>
             </div>
           </div>
         </nav>
@@ -135,8 +147,9 @@
     <script src="{{ asset('js/carrucelAlfabeto.js') }}"></script>
     <script src="{{ asset('js/perfil.js') }}"></script>
     <script src="{{ asset('js/numeracion.js') }}"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
-      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+    <script src="{{ asset('js/alfabeto.js') }}"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
    <script type="text/javascript" src="js/jquery.maphilight.min.js"></script>
    <script src="{{ asset('js/cuerpo.js') }}"></script>
    <script src="{{ asset('js/ruleta_js/bootstrap.js') }}"></script>

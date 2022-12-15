@@ -46,5 +46,10 @@ Route::get('/cursos/absolutivos', [App\Http\Controllers\Cursos::class, 'absoluti
 Route::get('/cursos/pluralesSimples', [App\Http\Controllers\Cursos::class, 'pluralesSimples'])->name('pluralesSimples');
 Route::get('/cursos/marcasSujetos', [App\Http\Controllers\Cursos::class, 'marcasSujetos'])->name('marcasSujetos');
 Route::get('/cursos/reverenciales', [App\Http\Controllers\Cursos::class, 'reverenciales'])->name('reverenciales');
-
+Route::get('/cursos/video1', [App\Http\Controllers\Cursos::class, 'video1'])->name('video1');
+Route::get('/cursos/video2', [App\Http\Controllers\Cursos::class, 'video2'])->name('video2');
+Route::get('/cursos/video3', [App\Http\Controllers\Cursos::class, 'video3'])->name('video3');
+Route::get('/cursos/video4', [App\Http\Controllers\Cursos::class, 'video4'])->name('video4');
+Route::get('/cursos/video5', [App\Http\Controllers\Cursos::class, 'video5'])->name('video5');
+Route::get('/cursos/video6', [App\Http\Controllers\Cursos::class, 'video6'])->name('video6');
 

@@ -39,7 +39,24 @@ class Cursos extends Controller{
     public function pluralesSimples(){
         return view('cursos/pluralesSimples');
     }
-
-
+    public function video1(){
+        return view('cursos/video1');
+    }
+    public function video2(){
+        return view('cursos/video2');
+    }
+    public function video3(){
+        return view('cursos/video3');
+    }
+    public function video4(){
+        return view('cursos/video4');
+    }
+    public function video5(){
+        return view('cursos/video5');
+    }
+    public function video6(){
+        return view('cursos/video6');
+    }
+   
 
 }

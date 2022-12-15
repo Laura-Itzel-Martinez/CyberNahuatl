@@ -9,7 +9,7 @@
                 <h2 > Posesivos <strong style="color:lightseagreen">(POS)</strong>.
 
 
-                    <a class="btn" style="float: right; color:#691C32 " href="{{ route('cursos')}}">Salir <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+                    <a class="btn" style="float: right; color:#691C32 " href="{{ route('video1')}}">Siguiente <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
                     <a class="btn" style="float: right; color:#10312B"  href="{{ route('diminutivos')}}"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i> Atras</a>
 
                 </h2>

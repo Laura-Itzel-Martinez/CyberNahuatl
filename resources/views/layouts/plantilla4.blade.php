@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="{{asset('css/navbarSistema.css') }}" rel="stylesheet">
     <link href="{{asset('css/cursos.css') }}" rel="stylesheet">
+    <link href="{{asset('css/videos.css') }}" rel="stylesheet">
     <link href="{{asset('librerias/fontawesome/css/all.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="librerias/fontawesome/css/all.css">
 
@@ -26,21 +27,21 @@
         <div class="sidebar-brand">
           <h2 class="text-center">Cursos en Nahualt</h2>
         </div>
-        <ul class="sidebar-nav" >
+        <ul class="sidebar-nav">
           <li class="">
-            <a href="{{ route('morfologica')}}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Morfológica</a>
+            <a href="{{ route('morfologica')}}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Morfológica.</a>
           </li>
           <li>
-            <a href="{{ route('honorifico')}}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Honorifico</a>
+            <a href="{{ route('honorifico')}}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Honorifico.</a>
           </li>
           <li>
-            <a href="{{ route('metaforica')}}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Metaforicaaaaa</a>
+            <a href="{{ route('metaforica')}}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Metaforica.</a>
           </li>
           <li>
-            <a href="{{ route('omnipredicativa')}}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Omnipredicativa</a>
+            <a href="{{ route('omnipredicativa')}}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Omnipredicativa.</a>
           </li>
           <li>
-            <a href="{{ route('absolutivos')}}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Absolutivos (ABS)</a>
+            <a href="{{ route('absolutivos')}}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Absolutivos (ABS).</a>
           </li>
           <li>
             <a href="{{ route('pluralesSimples')}}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Plurales Simples.<a>
@@ -57,9 +58,27 @@
           <li>
             <a href="{{ route('posesivos')}}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Posesivos.<a>
           </li>
-
           <li>
-            <a href="{{ route('cursos')}}"><i class="fa fa-times" style="color:crimson" aria-hidden="true"></i>Salir<a>
+            <a href="{{ route('video1')}}"><i class="fa fa-solid fa-video"></i>Video explicativo 1<a>
+          </li>
+          <li>
+            <a href="{{ route('video2')}}"><i class="fa fa-solid fa-video"></i>Video explicativo 2<a>
+          </li>
+          <li>
+          <li>
+            <a href="{{ route('video3')}}"><i class="fa fa-solid fa-video"></i>Video explicativo 3<a>
+          </li>
+          <li>
+            <a href="{{ route('video4')}}"><i class="fa fa-solid fa-video"></i>Video explicativo 4<a>
+          </li>
+          <li>
+            <a href="{{ route('video5')}}"><i class="fa fa-solid fa-video"></i>Video explicativo 5<a>
+          </li>
+          <li>
+            <a href="{{ route('video6')}}"><i class="fa fa-solid fa-video"></i>Video explicativo 6<a>
+          </li>
+          <li>
+            <a href="{{ route('cursos')}}"><i class="fa fa-times" style="color:crimson" aria-hidden="true"></i>SALIR<a>
           </li>
         </ul>
       </aside>
