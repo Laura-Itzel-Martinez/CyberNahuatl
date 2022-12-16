@@ -15,9 +15,16 @@
         <div class="row">
             <div class="col-md-6">
                 <br><br><br>
-                <center><h1 STYLE="font-size: 30px;color:#000">Has click sobre el boton</h1> <br>
+                <center><h1 STYLE="font-size: 20px;color:#000">Aprende la forma de decir los colores bàsicos el nàhuatl, al presionar el bòton aparecera como se dice en nàhuatl
+                la forma de pronunciarlos.
+                </h1><br>
 
-                    <br><br><br><br>
+                <h1>Descubrelo ahora mismos.</h1>
+
+
+
+                    <br><br><br>
+
                     <input type="button" value="Girar" onclick="miRuleta.startAnimation();" class="btn btn-success btn-lg"
                           style="width: 150px;margin-left: 0px;border: 2px solid #ffffff">
                 </center>
