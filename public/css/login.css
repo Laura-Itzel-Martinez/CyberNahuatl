@@ -1,16 +1,16 @@
 
 
  html,body {
-  background-image: url(../img/fondo_login2.jpeg);
+  background-image: url(../img/fondo_login.jpeg);
   font-family:'Source Sans Pro';
   height: 100vh;
   }
   .fondo_login{
-    background-image: url(../img/fondo_login2.jpeg);
+    background-image: url(../img/fondo_login.jpeg);
 
  }
  .fondo_registro{
-  background-image: url(../img/fondo_login.jpeg);
+  background-image: url(../img/fondo_registro.jpeg);
 }
   a {
     color: #92badd;

@@ -29,7 +29,7 @@
                 <tbody>
                   <tr>
 
-                    <td>sentetl, se </td>
+                    <td>Se </td>
                     <td>Uno</td>
                     <td>
                       <audio controls>
@@ -70,7 +70,7 @@
                 <tbody>
                   <tr>
 
-                    <td>summe</td>
+                    <td>Summe</td>
                     <td>Dos</td>
                     <td>
                       <audio controls>
@@ -112,7 +112,7 @@
                 <tbody>
                   <tr>
 
-                    <td>yeye</td>
+                    <td>Yeye</td>
                     <td>Tres</td>
                     <td>
                       <audio controls>
@@ -153,7 +153,7 @@
                 <tbody>
                   <tr>
 
-                    <td>nawe</td>
+                    <td>Nawe</td>
                     <td>Cuatro</td>
                     <td>
                       <audio controls>
@@ -195,7 +195,7 @@
                 <tbody>
                   <tr>
 
-                    <td>makwille</td>
+                    <td>Makwille</td>
                     <td>Cinco</td>
                     <td>
                       <audio controls>
@@ -404,7 +404,7 @@
                 <tbody>
                   <tr>
 
-                    <td>mahtlaktle</td>
+                    <td>Mahtlaktle</td>
                     <td>Diez</td>
                     <td>
                       <audio controls>
